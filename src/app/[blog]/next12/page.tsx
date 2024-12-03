@@ -7,8 +7,8 @@ const page = () => {
           <Image
             src="/images/12.jpg"
             alt="setup"
-            width={200}
-            height={200}
+            width={400}
+            height={400}
             className="w-full h-full md:w-full sm:w-[660px] md:h-[550px] sm:h[350px] rounded-lg border border-slate-300"
           />
           <div className="px-3 md:px-8 py-8 rounded-lg">
@@ -38,7 +38,7 @@ const page = () => {
           <li className="pb-2 list-disc text-md mx-3 md:mx-9">Dynamic rewrites and redirects.
           </li>
           </li>
-          <li className="pb-2 list-disc text-md mx-3 md:mx-9">Middleware is created in the <span className="bg-gray-200 p-1">middleware.js</span> file:</li>
+          <li className="pb-2 list-disc text-md mx-3 md:mx-9">Middleware is created in the <span className="bg-gray-400 p-1">middleware.js</span> file:</li>
           <div className="bg-black md:text-lg sm:text-sm text-[14px] text-left px-3 md:px-8 py-7 text-cyan-500 md:h-[300px] sm:h-[350px] h-full rounded-lg md:w-[70%] sm:w-[90%] w-full md:ml-[5%]">
             <code>{`export function middleware(request) {`}</code><br />
             <code>&nbsp;{`  const { pathname } = request.nextUrl;`}</code> <br /><br />
@@ -106,13 +106,13 @@ const page = () => {
           <h4 className="py-4 px-3 md:px-12 list-decimal text-lg font-semibold text-left font-serif">5. Improved Image Component
           </h4>
           <ul className="px-3 md:px-12">
-          <li className="pb-2 list-disc text-md mx-3 md:mx-9">Upgrades to the <span className="bg-gray-200 p-1">{`<Image>`}</span> component for better flexibility:
+          <li className="pb-2 list-disc text-md mx-3 md:mx-9">Upgrades to the <span className="bg-gray-400 p-1">{`<Image>`}</span> component for better flexibility:
 
           <li className="pb-2 list-disc text-md mx-3 md:mx-9">AVIF format support for smaller and faster-loading images.
           </li> 
           <li className="pb-2 list-disc text-md mx-3 md:mx-9">Automatic placeholders for missing images.
           </li> 
-          <li className="pb-2 list-disc text-md mx-3 md:mx-9">Improved configuration options in <span className="bg-gray-200 p-1">next.config.js</span>.
+          <li className="pb-2 list-disc text-md mx-3 md:mx-9">Improved configuration options in <span className="bg-gray-400 p-1">next.config.js</span>.
           </li> 
           </li> 
           <li className="py-2 list-disc text-md mx-3 md:mx-9">Example:</li> 
@@ -134,7 +134,7 @@ const page = () => {
            <ul className="px-3 md:px-12">
           <li className="pb-2 list-disc text-md mx-3 md:mx-9">Next.js 12 introduced full support for <b>ES Modules</b>.
           </li>
-          <li className="pb-2 list-disc text-md mx-3 md:mx-9">Allows using <span className="bg-gray-200 p-1">import</span> and <span className="bg-gray-200 p-1">export</span> natively, simplifying module development and compatibility.
+          <li className="pb-2 list-disc text-md mx-3 md:mx-9">Allows using <span className="bg-gray-400 p-1">import</span> and <span className="bg-gray-400 p-1">export</span> natively, simplifying module development and compatibility.
           </li>
           </ul>
           <h4 className="py-4 px-3 md:px-12 list-decimal text-lg font-semibold text-left font-serif">7. SSR and SSG Performance Boost
@@ -208,7 +208,7 @@ const page = () => {
             </code>
           </div>
           </ul>
-          <h4 className="py-4 px-3 md:px-12 list-decimal text-lg font-semibold text-left font-serif">13. Updated <span className="bg-gray-200 p-1">next/script</span> Component
+          <h4 className="py-4 px-3 md:px-12 list-decimal text-lg font-semibold text-left font-serif">13. Updated <span className="bg-gray-400 p-1">next/script</span> Component
           </h4>
           <ul className="px-3 md:px-12">
           <li className="pb-2 list-disc text-md mx-3 md:mx-9">New loading strategies for third-party scripts, improving performance and control:

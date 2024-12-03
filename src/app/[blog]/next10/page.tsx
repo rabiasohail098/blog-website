@@ -7,8 +7,8 @@ const page = () => {
     <Image
       src="/images/10.jpg"
       alt="setup"
-      width={200}
-      height={200}
+      width={400}
+      height={400}
       className="w-full h-full md:w-full sm:w-[660px] md:h-[550px] sm:h[350px] rounded-lg border border-slate-300"
     />
     <div className="px-3 md:px-8 py-8 rounded-lg">
@@ -23,7 +23,7 @@ const page = () => {
           <h4 className="pb-4 px-3 md:px-12 list-decimal text-lg font-semibold text-left font-serif">1. Image Optimization
           </h4>
           <ul className="px-3 md:px-12">
-          <li className="pb-2 list-disc text-md mx-3 md:mx-9"><b>Built-in Image Component:</b> The new <span className="bg-gray-200 p-1">{`<Image>`}</span> component simplifies handling images with automatic optimization.
+          <li className="pb-2 list-disc text-md mx-3 md:mx-9"><b>Built-in Image Component:</b> The new <span className="bg-gray-400 p-1">{`<Image>`}</span> component simplifies handling images with automatic optimization.
 </li>
           <li className="pb-2 list-disc text-md mx-3 md:mx-9">Key features:
           <li className="pb-2 list-disc text-md mx-3 md:mx-9">Automatic resizing and serving images in modern formats like WebP.
@@ -51,9 +51,9 @@ const page = () => {
           <ul className="px-3 md:px-12">
           <li className="pb-2 list-disc text-md mx-3 md:mx-9">Native support for internationalized (multilingual) routing.
           </li>
-          <li className="pb-2 list-disc text-md mx-3 md:mx-9">Enables locale-based URL routing, such as <span className="bg-gray-200 p-1">/en</span>, <span className="bg-gray-200 p-1">/fr</span>, or <span className="bg-gray-200 p-1">/es</span>.
+          <li className="pb-2 list-disc text-md mx-3 md:mx-9">Enables locale-based URL routing, such as <span className="bg-gray-400 p-1">/en</span>, <span className="bg-gray-400 p-1">/fr</span>, or <span className="bg-gray-400 p-1">/es</span>.
 </li>
-          <li className="pb-2 list-disc text-md mx-3 md:mx-9">Configuration in <span className="bg-gray-200 p-1">next.config.js:</span></li>
+          <li className="pb-2 list-disc text-md mx-3 md:mx-9">Configuration in <span className="bg-gray-400 p-1">next.config.js:</span></li>
 <div className="bg-black md:text-lg sm:text-sm text-[14px] text-left px-3 md:px-8 py-7 text-cyan-500 md:h-[260px] sm:h-[320px] h-full w-full rounded-lg md:w-[70%] md:ml-[5%] sm:w-[90%]">
     <code>{`module.exports = {`}</code><br /><br />
     <code>&nbsp;{` i18n: {`}</code><br />
@@ -93,9 +93,9 @@ const page = () => {
 <li className="pb-2 list-disc text-md mx-3 md:mx-9">Smaller client-side bundles.</li>   
 </li>
        </ul>
-       <h4 className="pb-4 px-3 md:px-12 list-decimal text-lg font-semibold text-left font-serif">5. New <span className="bg-gray-200 p-1">next/script</span> Component</h4>
+       <h4 className="pb-4 px-3 md:px-12 list-decimal text-lg font-semibold text-left font-serif">5. New <span className="bg-gray-400 p-1">next/script</span> Component</h4>
        <ul className="px-3 md:px-12">
-       <li className="pb-2 list-disc text-md mx-3 md:mx-9">Introduced the <span className="bg-gray-200 p-1">{`<Script>`}</span> component for loading third-party scripts efficiently.
+       <li className="pb-2 list-disc text-md mx-3 md:mx-9">Introduced the <span className="bg-gray-400 p-1">{`<Script>`}</span> component for loading third-party scripts efficiently.
        </li>
        <li className="pb-2 list-disc text-md mx-3 md:mx-9">Enables deferred or async loading of external scripts.</li>
        <li className="pb-2 list-disc text-md mx-3 md:mx-9">Example:</li>
@@ -110,29 +110,29 @@ const page = () => {
        </div>
        <li className="pb-2 list-disc text-md mx-3 md:mx-9">Strategies:
 <br /> 
-<li className="pb-2 list-disc text-md mx-3 md:mx-9"><span className="bg-gray-200 p-1">lazyOnload</span>: Load script when the browser is idle.
+<li className="pb-2 list-disc text-md mx-3 md:mx-9"><span className="bg-gray-400 p-1">lazyOnload</span>: Load script when the browser is idle.
 </li>
-<li className="pb-2 list-disc text-md mx-3 md:mx-9"><span className="bg-gray-200 p-1">beforeInteractive</span>: Load script before the page becomes interactive.
+<li className="pb-2 list-disc text-md mx-3 md:mx-9"><span className="bg-gray-400 p-1">beforeInteractive</span>: Load script before the page becomes interactive.
 </li>
       </li>
        </ul>
-       <h4 className="pb-4 px-3 md:px-12 list-decimal text-lg font-semibold text-left font-serif">6. Static File Serving for <span className="bg-gray-200 p-1">public/</span> Directory
+       <h4 className="pb-4 px-3 md:px-12 list-decimal text-lg font-semibold text-left font-serif">6. Static File Serving for <span className="bg-gray-400 p-1">public/</span> Directory
        </h4>
        <ul className="px-3 md:px-12">
-       <li className="pb-2 list-disc text-md mx-3 md:mx-9">Introduced the <span className="bg-gray-200 p-1">public/</span> directory for serving static assets (e.g., images, files).
+       <li className="pb-2 list-disc text-md mx-3 md:mx-9">Introduced the <span className="bg-gray-400 p-1">public/</span> directory for serving static assets (e.g., images, files).
        </li>
        <li className="pb-2 list-disc text-md mx-3 md:mx-9">
         <b>Benefits: <br />
         </b>
-        <li className="pb-2 list-disc text-md mx-3 md:mx-9">Files in <span className="bg-gray-200 p-1">public/</span> are accessible via / (root) URLs.</li>
-        <li className="pb-2 list-disc text-md mx-3 md:mx-9"> Example: A file <span className="bg-gray-200 p-1">public/logo.png</span> can be accessed at <span className="bg-gray-200 p-1">http://localhost:3000/logo.png.</span></li>
+        <li className="pb-2 list-disc text-md mx-3 md:mx-9">Files in <span className="bg-gray-400 p-1">public/</span> are accessible via / (root) URLs.</li>
+        <li className="pb-2 list-disc text-md mx-3 md:mx-9"> Example: A file <span className="bg-gray-400 p-1">public/logo.png</span> can be accessed at <span className="bg-gray-400 p-1">http://localhost:3000/logo.png.</span></li>
         </li>
        </ul>
        <h4 className="pb-4 px-3 md:px-12 list-decimal text-lg font-semibold text-left font-serif">7. Automatic Static Generation for More Pages</h4>
        <ul className="px-3 md:px-12">
        <li className="pb-2 list-disc text-md mx-3 md:mx-9">Improved static generation capabilities:
 
-       <li className="pb-2 list-disc text-md mx-3 md:mx-9">Pages using <span className="bg-gray-200 p-1">getStaticProps</span> can now support <b>incremental static regeneration</b>.</li>
+       <li className="pb-2 list-disc text-md mx-3 md:mx-9">Pages using <span className="bg-gray-400 p-1">getStaticProps</span> can now support <b>incremental static regeneration</b>.</li>
        <li className="pb-2 list-disc text-md mx-3 md:mx-9">This allows on-demand re-generation of static pages during runtime.
        </li>
        </li>
@@ -166,7 +166,7 @@ const page = () => {
        <h4 className="pb-4 px-3 md:px-12 list-decimal text-lg font-semibold text-left font-serif">10. Custom Headers and Middleware Enhancements
        </h4>
        <ul className="px-3 md:px-12">
-       <li className="pb-2 list-disc text-md mx-3 md:mx-9">Improved support for adding custom headers and handling redirects in <span className="bg-gray-200 p-1">next.config.js.</span></li>
+       <li className="pb-2 list-disc text-md mx-3 md:mx-9">Improved support for adding custom headers and handling redirects in <span className="bg-gray-400 p-1">next.config.js.</span></li>
        <div className="bg-black md:text-lg sm:text-sm text-[14px] text-left px-3 md:px-8 py-7 text-cyan-500 md:h-[380px] sm:h-[450px] h-full rounded-lg md:w-[70%] sm:w-[90%] w-full md:ml-[5%]">
         <code>{`module.exports = {`}</code><br/>
         <code>&nbsp;{`async headers() {`}</code><br />

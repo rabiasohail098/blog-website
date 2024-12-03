@@ -8,8 +8,8 @@ const page = () => {
       <Image
         src="/images/8.jpg"
         alt="setup"
-        width={200}
-        height={200}
+        width={400}
+        height={400}
         className="w-full h-full md:w-full sm:w-[660px] md:h-[550px] sm:h[350px] rounded-lg border border-slate-300"
       />
       <div className="px-3 md:px-8 py-8 rounded-lg">
@@ -50,9 +50,9 @@ const page = () => {
           </h4>
           <li className="pb-2 list-disc text-md mx-3 md:mx-9">Enabled incremental compilation, reducing rebuild times by reusing previously built files for unchanged pages.
           </li>
-          <h4 className="pb-4 px-3 md:px-12 list-decimal text-lg font-semibold text-left font-serif">4. Customizable<span className="bg-gray-200 p-1"> next.config.js</span>.</h4>
+          <h4 className="pb-4 px-3 md:px-12 list-decimal text-lg font-semibold text-left font-serif">4. Customizable<span className="bg-gray-400 p-1"> next.config.js</span>.</h4>
           <ul className="px-3 md:px-12">
-          <li className="pb-2 list-disc text-md mx-3 md:mx-9">Expanded customization options in <span className="bg-gray-200 p-1">next.config.js</span>:
+          <li className="pb-2 list-disc text-md mx-3 md:mx-9">Expanded customization options in <span className="bg-gray-400 p-1">next.config.js</span>:
           <li className="pb-2 list-disc text-md mx-3 md:mx-9">Allowed fine-tuning serverless build configurations.</li>
           <li className="pb-2 list-disc text-md mx-3 md:mx-9">Improved support for third-party plugins and custom logic.</li>
           </li>
@@ -60,10 +60,10 @@ const page = () => {
           <h4 className="pb-4 px-3 md:px-12 list-decimal text-lg font-semibold text-left font-serif">5. Static Asset Serving
           </h4>
           <ul className="px-3 md:px-12">
-          <li className="pb-2 list-disc text-md mx-3 md:mx-9">Simplified the process for serving static files from the <span className="bg-gray-200 p-1">/static</span> directory (later <span className="bg-gray-200 p-1">/public</span> in newer versions).
+          <li className="pb-2 list-disc text-md mx-3 md:mx-9">Simplified the process for serving static files from the <span className="bg-gray-400 p-1">/static</span> directory (later <span className="bg-gray-400 p-1">/public</span> in newer versions).
           </li>
           <li className="pb-2 list-disc text-md mx-3 md:mx-9">Example:
-          <li className="pb-2 list-disc text-md mx-3 md:mx-9">Place files in <span className="bg-gray-200 p-1">/static</span>, and they are accessible at <span className="bg-gray-200 p-1">/static/filename</span></li>
+          <li className="pb-2 list-disc text-md mx-3 md:mx-9">Place files in <span className="bg-gray-400 p-1">/static</span>, and they are accessible at <span className="bg-gray-400 p-1">/static/filename</span></li>
           <li className="pb-2 list-disc text-md mx-3 md:mx-9">Used for serving images, fonts, or other assets.</li>
           </li>
           </ul>
@@ -77,9 +77,9 @@ const page = () => {
    <code>worker.postMessage(Hello Worker);</code>
    </div>
           </ul>
-          <h4 className="pb-4 px-3 md:px-12 list-decimal text-lg font-semibold text-left font-serif">7. Preloading for <span className="bg-gray-200 p-1">next/link</span>.</h4>
+          <h4 className="pb-4 px-3 md:px-12 list-decimal text-lg font-semibold text-left font-serif">7. Preloading for <span className="bg-gray-400 p-1">next/link</span>.</h4>
           <ul className="px-3 md:px-12">
-          <li className="pb-2 list-disc text-md mx-3 md:mx-9">Improved the <span className="bg-gray-200 p-1">next/link</span>component with smarter preloading strategies for linked pages.</li> 
+          <li className="pb-2 list-disc text-md mx-3 md:mx-9">Improved the <span className="bg-gray-400 p-1">next/link</span>component with smarter preloading strategies for linked pages.</li> 
           <li className="pb-2 list-disc text-md mx-3 md:mx-9">Benefits:
           <li className="pb-2 list-disc text-md mx-3 md:mx-9">Reduced navigation time.
           </li> 
@@ -88,7 +88,7 @@ const page = () => {
           </li> 
           </li> 
           </ul>
-          <h4 className="pb-4 px-3 md:px-12 list-decimal text-lg font-semibold text-left font-serif">8. Performance Monitoring with <span className="bg-gray-200 p-1">next build.</span>
+          <h4 className="pb-4 px-3 md:px-12 list-decimal text-lg font-semibold text-left font-serif">8. Performance Monitoring with <span className="bg-gray-400 p-1">next build.</span>
           </h4>
           <ul className="px-3 md:px-12">
           <li className="pb-2 list-disc text-md mx-3 md:mx-9">Added detailed performance insights during the build process.
@@ -126,7 +126,7 @@ const page = () => {
           <h4 className="pb-4 px-3 md:px-12 list-decimal text-lg font-semibold text-left font-serif">Dynamic Routing Enhancements
           </h4>
           <ul className="px-3 md:px-12">
-          <li className="pb-2 list-disc text-md mx-3 md:mx-9">Although file-based dynamic routing  <span className="bg-gray-200 p-1">([id].js)</span> was not yet introduced, this version made dynamic routing patterns easier with custom server setups.
+          <li className="pb-2 list-disc text-md mx-3 md:mx-9">Although file-based dynamic routing  <span className="bg-gray-400 p-1">([id].js)</span> was not yet introduced, this version made dynamic routing patterns easier with custom server setups.
           </li>
           </ul>
           <h3 className="pb-4 text-[25px] px-3 md:px-12 font-bold text-left font-serif">Performance Enhancements</h3>
@@ -143,7 +143,7 @@ const page = () => {
           <h4 className="pb-4 px-3 md:px-12 list-decimal text-lg font-semibold text-left font-serif">1. No File-based Dynamic Routing:
 
 </h4>
-<li className="pb-2 list-disc text-md mx-3 md:mx-9">File-based dynamic routing (e.g., <span className="bg-gray-200 p-1">[id].js</span>) came in Next.js 9.
+<li className="pb-2 list-disc text-md mx-3 md:mx-9">File-based dynamic routing (e.g., <span className="bg-gray-400 p-1">[id].js</span>) came in Next.js 9.
 </li>
 <h4 className="pb-4 px-3 md:px-12 list-decimal text-lg font-semibold text-left font-serif">2. No Built-in API Routes:
 </h4>

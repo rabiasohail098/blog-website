@@ -7,8 +7,8 @@ const page = () => {
           <Image
             src="/images/11.jpg"
             alt="setup"
-            width={200}
-            height={200}
+            width={400}
+            height={400}
             className="w-full h-full md:w-full sm:w-[660px] md:h-[550px] sm:h[350px]  rounded-lg border border-slate-300"
           />
           <div className="px-3 md:px-8 py-8 rounded-lg">
@@ -33,9 +33,9 @@ const page = () => {
             </div>
             <li className="py-2 list-disc text-md mx-3 md:mx-9">ESLint rules optimized for Next.js, including warnings for common issues like:
 <br />
-            <li className="pb-2 list-disc text-md mx-3 md:mx-9">Missing <span className="bg-gray-200 p-1">{`<Image>`}</span> attributes.
+            <li className="pb-2 list-disc text-md mx-3 md:mx-9">Missing <span className="bg-gray-400 p-1">{`<Image>`}</span> attributes.
             </li>
-            <li className="pb-2 list-disc text-md mx-3 md:mx-9">Improper use of <span className="bg-gray-200 p-1">next/head</span>.
+            <li className="pb-2 list-disc text-md mx-3 md:mx-9">Improper use of <span className="bg-gray-400 p-1">next/head</span>.
             </li>
             </li>
         </ul>
@@ -52,7 +52,7 @@ const page = () => {
           <h4 className="pb-4 px-3 md:px-12 list-decimal text-lg font-semibold text-left font-serif">3. Next.js Script Component
           </h4>
           <ul className="px-3 md:px-12">
-          <li className="pb-2 list-disc text-md mx-3 md:mx-9">Introduced the <span className="bg-gray-200 p-1">{`<Script>`}</span> component for third-party scripts with better loading strategies.
+          <li className="pb-2 list-disc text-md mx-3 md:mx-9">Introduced the <span className="bg-gray-400 p-1">{`<Script>`}</span> component for third-party scripts with better loading strategies.
           </li>
           <li className="pb-2 list-disc text-md mx-3 md:mx-9">Optimized loading for performance by reducing render-blocking scripts.
           </li>
@@ -96,7 +96,7 @@ const page = () => {
 <li className="pb-2 list-disc text-md mx-3 md:mx-9">Cumulative Layout Shift (CLS).
 </li>
          </li>
-         <li className="pb-2 list-disc text-md mx-3 md:mx-9">Integrated directly with <span className="bg-gray-200 p-1">next/scriptnext/script</span> and the analytics library.
+         <li className="pb-2 list-disc text-md mx-3 md:mx-9">Integrated directly with <span className="bg-gray-400 p-1">next/scriptnext/script</span> and the analytics library.
          </li>
          <li className="pb-2 list-disc text-md mx-3 md:mx-9">Example:</li>
          <div className="bg-black md:text-lg sm:text-sm text-[14px] text-left px-3 md:px-8 py-7 text-cyan-500 md:h-[150px] sm:h-[180px] h-full rounded-lg md:w-[70%] sm:w-[90%] md:ml-[5%] w-full">
@@ -108,11 +108,11 @@ const page = () => {
 <h4 className="py-4 px-3 md:px-12 list-decimal text-lg font-semibold text-left font-serif">6. Improved Performance for Images
 </h4>
 <ul className="px-3 md:px-12">
-          <li className="pb-2 list-disc text-md mx-3 md:mx-9">Enhanced the <span className="bg-gray-200 p-1">{`<Image>`}</span> component for better performance and flexibility.
+          <li className="pb-2 list-disc text-md mx-3 md:mx-9">Enhanced the <span className="bg-gray-400 p-1">{`<Image>`}</span> component for better performance and flexibility.
           </li>
           <li className="pb-2 list-disc text-md mx-3 md:mx-9">Added features:
 <br />
-          <li className="pb-2 list-disc text-md mx-3 md:mx-9">Native <span className="bg-gray-200 p-1">priority</span> attribute for above-the-fold images.
+          <li className="pb-2 list-disc text-md mx-3 md:mx-9">Native <span className="bg-gray-400 p-1">priority</span> attribute for above-the-fold images.
           </li>
           <li className="pb-2 list-disc text-md mx-3 md:mx-9">Improved caching for optimized images.
           </li>
@@ -136,7 +136,7 @@ const page = () => {
           <ul className="px-3 md:px-12">
           <li className="pb-2 list-disc text-md mx-3 md:mx-9">Introduced middleware to intercept requests and add custom logic before rendering.
           </li>
-          <li className="pb-2 list-disc text-md mx-3 md:mx-9">Middleware is written in the <span className="bg-gray-200 p-1">pages/_middleware.js</span> file or <span className="bg-gray-200 p-1">middleware.js</span>.
+          <li className="pb-2 list-disc text-md mx-3 md:mx-9">Middleware is written in the <span className="bg-gray-400 p-1">pages/_middleware.js</span> file or <span className="bg-gray-400 p-1">middleware.js</span>.
           </li>
           <li className="pb-2 list-disc text-md mx-3 md:mx-9">Enables use cases like:
 <br />
@@ -188,7 +188,7 @@ const page = () => {
           <li className="pb-2 list-disc text-md mx-3 md:mx-9">Example:
 
 <br />
-          <li className="pb-2 list-disc text-md mx-3 md:mx-9">Create <span className="bg-gray-200 p-1">.module.css</span> or <span className="bg-gray-200 p-1">.module.scss</span> files for scoped styles.</li>
+          <li className="pb-2 list-disc text-md mx-3 md:mx-9">Create <span className="bg-gray-400 p-1">.module.css</span> or <span className="bg-gray-400 p-1">.module.scss</span> files for scoped styles.</li>
           </li>
           <div className="bg-black text-lg text-left px-3 md:px-8 py-7 text-cyan-500 h-[120px] rounded-lg w-[60%] ml-[5%]">
             <code>{`.button {`}</code><br />

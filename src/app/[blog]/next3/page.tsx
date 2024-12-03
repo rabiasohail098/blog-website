@@ -5,7 +5,7 @@ import Comments from '@/components/comment'
 const page = () => {
   return (
     <div className='px-2 md:px-8 py-8 rounded-lg  '>
-        <Image src="/images/3.jpg" alt="setup" width={200} height={200} className="w-full h-full md:w-full sm:w-[660px] md:h-[550px] sm:h[350px] rounded-lg border border-slate-300"/>
+        <Image src="/images/3.jpg" alt="setup" width={400} height={400} className="w-full h-full md:w-full sm:w-[660px] md:h-[550px] sm:h[350px] rounded-lg border border-slate-300"/>
         <div className='md:px-8 px-2 py-8 rounded-lg'>
         <h1 className='py-4 text-[45px] text-center font-serif font-bold'>Next.JS 3</h1>
         <h3 className='pb-4 text-xl font-medium text-center font-serif'>Third Version of NextJS</h3>
@@ -32,7 +32,7 @@ Enabled developers to export their Next.js applications as a set of static files
   <code>{`}`}</code>
  </div>
  <h4  className='pb-4 list-decimal text-lg font-semibold text-left font-serif'>3. Custom Error Pages</h4>
- <li className='pb-2 list-disc text-md mx-3 md:mx-9'>Developers could now create custom error pages (<span className='bg-gray-200 p-1'>pages/_error.js</span>).</li>
+ <li className='pb-2 list-disc text-md mx-3 md:mx-9'>Developers could now create custom error pages (<span className='bg-gray-400 p-1'>pages/_error.js</span>).</li>
  <li className='pb-2 list-disc text-md mx-3 md:mx-9'>Allowed better handling of errors and provided a more branded user experience.</li>
  <h4  className='pb-4 list-decimal text-lg font-semibold text-left font-serif'>4. Improved Hot Module Replacement (HMR)</h4>
  <li className='pb-2 list-disc text-md mx-3 md:mx-9'>Enhanced development experience with better live updates during development without requiring a full reload.</li>

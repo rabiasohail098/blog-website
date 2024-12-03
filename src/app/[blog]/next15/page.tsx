@@ -7,8 +7,8 @@ const page = () => {
     <Image
       src="/images/15.jpg"
       alt="setup"
-      width={200}
-      height={200}
+      width={400}
+      height={400}
       className="w-full h-full md:w-full sm:w-[660px] md:h-[550px] sm:h[350px] rounded-lg border border-slate-300"
     />
     <div className="px-3 md:px-8 py-8 rounded-lg">
@@ -48,12 +48,12 @@ const page = () => {
 
 </h4>
           <ul className="px-3 md:px-12">
-          <li className="pb-2 list-disc text-md mx-3 md:mx-9">By default, fetch requests now use <span className="bg-gray-200 p-1">no-store</span>, ensuring data freshness.
+          <li className="pb-2 list-disc text-md mx-3 md:mx-9">By default, fetch requests now use <span className="bg-gray-400 p-1">no-store</span>, ensuring data freshness.
           </li>
           <li className="pb-2 list-disc text-md mx-3 md:mx-9">GET route handlers and client-side router caching have been updated to avoid caching outdated data, offering more predictable behavior​
           </li>
           </ul>
-          <h4 className="pb-4 px-3 md:px-12 list-decimal text-lg font-semibold text-left font-serif">5. New <span className="bg-gray-200 p-1">unstable_after</span> API (Experimental):
+          <h4 className="pb-4 px-3 md:px-12 list-decimal text-lg font-semibold text-left font-serif">5. New <span className="bg-gray-400 p-1">unstable_after</span> API (Experimental):
 
 </h4>
           <ul className="px-3 md:px-12">
@@ -62,7 +62,7 @@ const page = () => {
           <li className="pb-2 list-disc text-md mx-3 md:mx-9">Improves primary response performance without blocking user interactions​
           </li>
           </ul>
-          <h4 className="pb-4 px-3 md:px-12 list-decimal text-lg font-semibold text-left font-serif">6. Enhanced <span className="bg-gray-200 p-1">create-next-app</span> Command:
+          <h4 className="pb-4 px-3 md:px-12 list-decimal text-lg font-semibold text-left font-serif">6. Enhanced <span className="bg-gray-400 p-1">create-next-app</span> Command:
 
 </h4>
           <ul className="px-3 md:px-12">

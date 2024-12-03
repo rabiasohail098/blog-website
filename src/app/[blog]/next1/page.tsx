@@ -5,7 +5,7 @@ import Comments from '@/components/comment'
 const page = () => {
   return (
     <div className='md:px-8 px-2 py-8 rounded-lg  '>
-<Image src="/images/1.jpg" alt="setup" width={200} height={200} className="w-full h-full md:w-full sm:w-[660px] md:h-[550px] sm:h[350px] rounded-lg border border-slate-300"/>
+<Image src="/images/1.jpg" alt="setup" width={400} height={400} className="w-full h-full md:w-full sm:w-[660px] md:h-[550px] sm:h[350px] rounded-lg border border-slate-300"/>
 <div className='md:px-8 px-2 py-8 rounded-lg'>
 <h1 className='py-4 text-[45px] text-center font-serif font-bold'>Next.JS 1</h1>
 <h3 className='pb-4 text-xl font-medium text-center font-serif'>Next.js 1: The Beginning of the Framework Revolution</h3>
@@ -16,9 +16,9 @@ const page = () => {
 <li className='pb-2 list-disc text-md md:mx-9 mx-3'>Next.js 1 allowed developers to render React components on the server, sending fully-rendered HTML to the browser.</li>
 <li className='pb-2 list-disc text-md md:mx-9 mx-3'>This feature significantly improved SEO and initial load time, as search engines could easily index the HTML content.</li>
 <h4  className='pb-4 list-decimal text-lg font-semibold text-left font-serif'>2. File-Based Routing:</h4>
-<li className='pb-2 list-disc text-md md:mx-9 mx-3'>Introduced an innovative file-based routing system where the structure of the <span className='bg-gray-200 p-1'>pages</span> directory directly corresponded to the application URL structure.</li>
+<li className='pb-2 list-disc text-md md:mx-9 mx-3'>Introduced an innovative file-based routing system where the structure of the <span className='bg-gray-400 p-1'>pages</span> directory directly corresponded to the application URL structure.</li>
 <li className='pb-2 list-disc text-md md:mx-9 mx-3'>For Example:</li>
-<li className='pb-2 list-disc text-md md:mx-12 px-3'>A file <span className='bg-gray-200 p-1'>about.js</span> inside the <span className='bg-gray-200 p-1'>pages</span> folder would map to the <span className='bg-gray-200 p-1'>/about</span> route.</li>
+<li className='pb-2 list-disc text-md md:mx-12 px-3'>A file <span className='bg-gray-400 p-1'>about.js</span> inside the <span className='bg-gray-400 p-1'>pages</span> folder would map to the <span className='bg-gray-400 p-1'>/about</span> route.</li>
 <li className='pb-2 list-disc text-md md:mx-12 mx-3'>No need for complex routing libraries.</li>
 <h4  className='pb-4 list-decimal text-lg font-semibold text-left font-serif'>3. Built-In Webpack and Babel Integration:</h4>
 <li className='pb-2 list-disc text-md md:mx-9 mx-3'>Provided zero-config support for modern JavaScript features using Babel.</li>

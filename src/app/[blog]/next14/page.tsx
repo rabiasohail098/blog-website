@@ -7,8 +7,8 @@ const page = () => {
     <Image
       src="/images/14.jpg"
       alt="setup"
-      width={200}
-      height={200}
+      width={400}
+      height={400}
       className="w-full h-full md:w-full sm:w-[660px] md:h-[550px] sm:h[350px] rounded-lg border border-slate-300"
     />
     <div className="px-3 md:px-8 py-8 rounded-lg">
@@ -38,9 +38,9 @@ const page = () => {
           </li>
           <li className="pb-2 list-disc text-md mx-3 md:mx-9">Supports actions via:
 <br />
-          <li className="pb-2 list-disc text-md mx-3 md:mx-9"><span className="bg-gray-200 p-1">formAction</span> attributes in buttons and forms.
+          <li className="pb-2 list-disc text-md mx-3 md:mx-9"><span className="bg-gray-400 p-1">formAction</span> attributes in buttons and forms.
           </li>
-          <li className="pb-2 list-disc text-md mx-3 md:mx-9"><span className="bg-gray-200 p-1">startTransition</span> for advanced use cases.
+          <li className="pb-2 list-disc text-md mx-3 md:mx-9"><span className="bg-gray-400 p-1">startTransition</span> for advanced use cases.
           </li>
           </li>
           <li className="pb-2 list-disc text-md mx-3 md:mx-9">Simplifies managing dynamic data without additional API layers​
@@ -62,7 +62,7 @@ const page = () => {
           <h4 className="pb-4 px-3 md:px-12 list-decimal text-lg font-semibold text-left font-serif">4. Revalidation Enhancements
           </h4>
           <ul className="px-3 md:px-12">
-          <li className="pb-2 list-disc text-md mx-3 md:mx-9">Functions like <span className="bg-gray-200 p-1">revalidatePath</span> and <span className="bg-gray-200 p-1">revalidateTag</span> enable dynamic updates to static content, merging the benefits of static and dynamic rendering.
+          <li className="pb-2 list-disc text-md mx-3 md:mx-9">Functions like <span className="bg-gray-400 p-1">revalidatePath</span> and <span className="bg-gray-400 p-1">revalidateTag</span> enable dynamic updates to static content, merging the benefits of static and dynamic rendering.
           </li>
           <li className="pb-2 list-disc text-md mx-3 md:mx-9">Allows seamless updates when data changes without full page reloads​
           </li>
@@ -72,7 +72,7 @@ const page = () => {
           <ul className="px-3 md:px-12">
           <li className="pb-2 list-disc text-md mx-3 md:mx-9">Support for newer image formats like <b>AVIF,</b> improving compression and image quality.
           </li>
-          <li className="pb-2 list-disc text-md mx-3 md:mx-9">Further optimizations to the <span className="bg-gray-200 p-1">next/image</span> component for faster page loads​
+          <li className="pb-2 list-disc text-md mx-3 md:mx-9">Further optimizations to the <span className="bg-gray-400 p-1">next/image</span> component for faster page loads​
           </li>
           </ul>
           <h4 className="pb-4 px-3 md:px-12 list-decimal text-lg font-semibold text-left font-serif">6. Middleware and Edge Features

@@ -4,7 +4,7 @@ import Comments from '@/components/comment'
 const page = () => {
   return (
     <div className='md:px-8 px-3 py-8 rounded-lg  '>
-         <Image src="/images/4.jpg" alt="setup" width={200} height={200} className="w-full h-full md:w-full sm:w-[660px] md:h-[550px] sm:h[350px] rounded-lg border border-slate-300"/>
+         <Image src="/images/4.jpg" alt="setup" width={400} height={400} className="w-full h-full md:w-full sm:w-[660px] md:h-[550px] sm:h[350px] rounded-lg border border-slate-300"/>
         <div className='md:px-8 px-3 py-8 rounded-lg'>
         <h1 className='py-4 text-[45px] text-center font-serif font-bold'>Next.JS 4</h1>
         <h3 className='pb-4 text-xl font-medium text-center font-serif'>Fourth Version of NextJS</h3>
@@ -28,7 +28,7 @@ const page = () => {
 <li className='pb-2 list-disc text-md mx-3 md:mx-9'><b>Error Boundaries</b>: Handling errors gracefully in React components.</li>
 <li className='pb-2 list-disc text-md mx-3 md:mx-9'><b>Portals</b>: Rendering children into DOM nodes outside of the parent hierarchy.</li>
 <li className='pb-2 list-disc text-md mx-3 md:mx-9'>Improved rendering performance and compatibility.</li>
-<h4  className='pb-4 list-decimal text-lg font-semibold text-left font-serif'>6. Custom Document (<span className='bg-gray-200 p-1'>_document.js</span>) Enhancements</h4>
+<h4  className='pb-4 list-decimal text-lg font-semibold text-left font-serif'>6. Custom Document (<span className='bg-gray-400 p-1'>_document.js</span>) Enhancements</h4>
 <li className='pb-2 list-disc text-md mx-3 md:mx-9'>Allowed developers to customize the {`<html>, <head>, and <body>`} elements of their application.</li>
 <li className='pb-2 list-disc text-md mx-3 md:mx-9'>Useful for injecting custom meta tags, styles, or scripts.
 </li>
@@ -60,7 +60,7 @@ const page = () => {
 <li className='pb-2 list-disc text-md mx-3 md:mx-9'>Improved client-side code splitting to load only the necessary JavaScript for the current page.</li>
 <li className='pb-2 list-disc text-md mx-3 md:mx-9'>Reduced page load times for large applications.</li>
 <h4  className='pb-4 list-decimal text-lg font-semibold text-left font-serif'>9. Export Enhancements</h4>
-<li className='pb-2 list-disc text-md mx-3 md:mx-9'>Improvements to <span className='bg-gray-200 p-1'>next export</span> allowed more efficient generation of static files for deployment to static hosting providers.</li>
+<li className='pb-2 list-disc text-md mx-3 md:mx-9'>Improvements to <span className='bg-gray-400 p-1'>next export</span> allowed more efficient generation of static files for deployment to static hosting providers.</li>
 <h4  className='pb-4 list-decimal text-lg font-semibold text-left font-serif'>10. Community and Ecosystem Growth</h4>
 <li className='pb-2 list-disc text-md mx-3 md:mx-9'>Strengthened the community and integration with tools like Webpack, Babel, and TypeScript.</li>
 </ul>

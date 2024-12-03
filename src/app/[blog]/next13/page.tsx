@@ -7,8 +7,8 @@ const page = () => {
           <Image
             src="/images/13.jpg"
             alt="setup"
-            width={200}
-            height={200}
+            width={400}
+            height={400}
             className="w-full h-full md:w-full sm:w-[660px] md:h-[550px] sm:h[350px] rounded-lg border border-slate-300"
           />
           <div className="px-3 md:px-8 py-8 rounded-lg">
@@ -26,7 +26,7 @@ const page = () => {
           <ul className="px-3 md:px-12">
           <li className="pb-2 list-disc text-md mx-3 md:mx-9">Features:
 <br />          
-<li className="pb-2 list-disc text-md mx-3 md:mx-9">Replaces the traditional <span className="bg-gray-200 p-1">pages</span> directory with the new <span className="bg-gray-200 p-1">app</span> directory.
+<li className="pb-2 list-disc text-md mx-3 md:mx-9">Replaces the traditional <span className="bg-gray-400 p-1">pages</span> directory with the new <span className="bg-gray-400 p-1">app</span> directory.
 </li>
 <li className="pb-2 list-disc text-md mx-3 md:mx-9">Offers a React Server Components-based routing system.
 </li>
@@ -63,7 +63,7 @@ const page = () => {
 <li className="pb-2 list-disc text-md mx-3 md:mx-9">More flexible with conditional processing based on requests.
 </li>
 </ul>
-<h4 className="pb-4 px-3 md:px-12 list-decimal text-lg font-semibold text-left font-serif">5. New <span className="bg-gray-200 p-1">next/image</span> Improvements
+<h4 className="pb-4 px-3 md:px-12 list-decimal text-lg font-semibold text-left font-serif">5. New <span className="bg-gray-400 p-1">next/image</span> Improvements
 </h4>
 <ul className="px-3 md:px-12">
 <li className="pb-2 list-disc text-md mx-3 md:mx-9">Automatically detects and optimizes images.
@@ -75,14 +75,14 @@ const page = () => {
 </h4>
 <ul className="px-3 md:px-12">
 <li className="pb-2 list-disc text-md mx-3 md:mx-9"><b>Layouts</b><br />
-<li className="pb-2 list-disc text-md mx-3 md:mx-9">Easy creation of reusable layouts by defining them in the <span className="bg-gray-200 p-1">app</span> directory.
+<li className="pb-2 list-disc text-md mx-3 md:mx-9">Easy creation of reusable layouts by defining them in the <span className="bg-gray-400 p-1">app</span> directory.
 </li>
 <li className="pb-2 list-disc text-md mx-3 md:mx-9">Nested layouts for creating complex, structured designs.
 </li>
 </li>
 <li className="pb-2 list-disc text-md mx-3 md:mx-9"><b>Routing:
 </b><br />
-<li className="pb-2 list-disc text-md mx-3 md:mx-9">Support for nested routing and dynamic segments <span className="bg-gray-200 p-1">([slug])</span>.
+<li className="pb-2 list-disc text-md mx-3 md:mx-9">Support for nested routing and dynamic segments <span className="bg-gray-400 p-1">([slug])</span>.
 </li>
 </li>
 </ul>
@@ -99,7 +99,7 @@ const page = () => {
 <h4 className="pb-4 px-3 md:px-12 list-decimal text-lg font-semibold text-left font-serif">8. Built-in SEO Optimizations
 </h4>
 <ul className="px-3 md:px-12">
-<li className="pb-2 list-disc text-md mx-3 md:mx-9">Automatic metadata handling using the <span className="bg-gray-200 p-1">head</span> tag in the <span className="bg-gray-200 p-1">app</span> directory.
+<li className="pb-2 list-disc text-md mx-3 md:mx-9">Automatic metadata handling using the <span className="bg-gray-400 p-1">head</span> tag in the <span className="bg-gray-400 p-1">app</span> directory.
 </li>
 <li className="pb-2 list-disc text-md mx-3 md:mx-9">Simplifies the management of meta tags, Open Graph, and other SEO elements.
 </li>

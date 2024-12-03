@@ -7,8 +7,8 @@ const page = () => {
       <Image
         src="/images/9.jpg"
         alt="setup"
-        width={200}
-        height={200}
+        width={400}
+        height={400}
         className="w-full h-full md:w-full sm:w-[660px] md:h-[550px] sm:h[350px] rounded-lg border border-slate-300"
       />
       <div className="px-3 md:px-8 py-8 rounded-lg">
@@ -26,12 +26,12 @@ const page = () => {
           <ul className="px-3 md:px-12">
           <li className="pb-2 list-disc text-md mx-3 md:mx-9">Introduced serverless API routes to handle backend logic.
           </li>
-          <li className="pb-2 list-disc text-md mx-3 md:mx-9">Developers can now create API endpoints by adding JavaScript or TypeScript files in the <span className="bg-gray-200 p-1">/pages/api</span> directory.
+          <li className="pb-2 list-disc text-md mx-3 md:mx-9">Developers can now create API endpoints by adding JavaScript or TypeScript files in the <span className="bg-gray-400 p-1">/pages/api</span> directory.
           </li>
           <li className="pb-2 list-disc text-md mx-3 md:mx-9">Example:</li>
           <div className="bg-black md:text-lg sm:text-sm text-[14px] text-left px-3 md:px-8 py-7 text-cyan-500 h-[200px] md:h-[180px] sm:h-[220px] rounded-lg w-[60%] ml-[5%]">
             <code>{`export default function handler(req, res) {`}</code><br/>
-            <code>&nbsp;{`res.status(200).json({ message: 'Hello, world!' });`}</code><br/>
+            <code>&nbsp;{`res.status(400).json({ message: 'Hello, world!' });`}</code><br/>
             <code>{`}`}</code>
             </div>
             <li className="py-2 list-disc text-md mx-3 md:mx-9"><b>Benefits:</b>
@@ -45,16 +45,16 @@ const page = () => {
           <h4 className="pb-4 px-3 md:px-12 list-decimal text-lg font-semibold text-left font-serif">2. Dynamic Routing
           </h4>
           <ul className="px-3 md:px-12">
-          <li className="pb-2 list-disc text-md mx-3 md:mx-9">Simplified <b>dynamic routes</b> using file-based routing with brackets <span className="bg-gray-200 p-1">([param])</span>.
+          <li className="pb-2 list-disc text-md mx-3 md:mx-9">Simplified <b>dynamic routes</b> using file-based routing with brackets <span className="bg-gray-400 p-1">([param])</span>.
           </li>
           <li className="pb-2 list-disc text-md mx-3 md:mx-9">Example:
          
-          <li className="pb-2 list-disc text-md mx-3 md:mx-9">File:<span className="bg-gray-200 p-1"> /pages/post/[id].js</span>
+          <li className="pb-2 list-disc text-md mx-3 md:mx-9">File:<span className="bg-gray-400 p-1"> /pages/post/[id].js</span>
           </li>
-          <li className="pb-2 list-disc text-md mx-3 md:mx-9">URL: <span className="bg-gray-200 p-1">/post/1</span> or
-          <span className="bg-gray-200 p-1">/post/abc</span>.</li>
-          <li className="pb-2 list-disc text-md mx-3 md:mx-9">Access parameters using the <span className="bg-gray-200 p-1">useRouter </span>hook or 
-          <span className="bg-gray-200 p-1">getServerSideProps</span>.</li>
+          <li className="pb-2 list-disc text-md mx-3 md:mx-9">URL: <span className="bg-gray-400 p-1">/post/1</span> or
+          <span className="bg-gray-400 p-1">/post/abc</span>.</li>
+          <li className="pb-2 list-disc text-md mx-3 md:mx-9">Access parameters using the <span className="bg-gray-400 p-1">useRouter </span>hook or 
+          <span className="bg-gray-400 p-1">getServerSideProps</span>.</li>
           </li>
           <div className="bg-black md:text-lg sm:text-sm text-[14px] text-left px-3 md:px-8 py-7 text-cyan-500 md:h-[350px] sm:h-[380px] h-full rounded-lg md:w-[70%] sm:w-[90%] w-full md:ml-[5%]">
             <code>{`import { useRouter } from 'next/router';`}</code><br />
@@ -71,14 +71,14 @@ const page = () => {
             <li className="pb-2 list-disc text-md mx-3 md:mx-9"><b>Static Generation (SSG):</b>
             <li className="pb-2 list-disc text-md mx-3 md:mx-9">Static content is generated at build time.
             </li>
-            <li className="pb-2 list-disc text-md mx-3 md:mx-9">Use <span className="bg-gray-200 p-1">getStaticProps</span> and <span className="bg-gray-200 p-1">getStaticPaths</span> for dynamic static content.
+            <li className="pb-2 list-disc text-md mx-3 md:mx-9">Use <span className="bg-gray-400 p-1">getStaticProps</span> and <span className="bg-gray-400 p-1">getStaticPaths</span> for dynamic static content.
             </li>
               </li>
             </ul>
             <ul className="px-3 md:px-12">
             <li className="pb-2 list-disc text-md mx-3 md:mx-9"><b>Server-Side Rendering (SSR):
             </b>
-            <li className="pb-2 list-disc text-md mx-3 md:mx-9">Content is generated on each request using <span className="bg-gray-200 p-1">getServerSideProps</span>.</li>
+            <li className="pb-2 list-disc text-md mx-3 md:mx-9">Content is generated on each request using <span className="bg-gray-400 p-1">getServerSideProps</span>.</li>
             </li>
             </ul>
             <h4 className="py-4 px-3 md:px-12 list-decimal text-lg font-semibold text-left font-serif">4. Automatic Static Optimization</h4>
@@ -92,7 +92,7 @@ const page = () => {
             <ul className="px-3 md:px-12">
             <li className="pb-2 list-disc text-md mx-3 md:mx-9">Automatic TypeScript configuration and setup.
             </li>
-            <li className="pb-2 list-disc text-md mx-3 md:mx-9">Next.js detects <span className="bg-gray-200 p-1">.ts</span> and <span className="bg-gray-200 p-1">.tsx</span> files and generates the necessary <span className="bg-gray-200 p-1">tsconfig.json</span> file.
+            <li className="pb-2 list-disc text-md mx-3 md:mx-9">Next.js detects <span className="bg-gray-400 p-1">.ts</span> and <span className="bg-gray-400 p-1">.tsx</span> files and generates the necessary <span className="bg-gray-400 p-1">tsconfig.json</span> file.
             </li>
             <li className="pb-2 list-disc text-md mx-3 md:mx-9">Provides type-checking during development.
             </li>
@@ -112,7 +112,7 @@ const page = () => {
             <h4 className="py-4 px-3 md:px-12 list-decimal text-lg font-semibold text-left font-serif">7. Middleware Support with Custom Routes
             </h4>
             <ul className="px-3 md:px-12">
-            <li className="pb-2 list-disc text-md mx-3 md:mx-9">Introduced support for custom routes <span className="bg-gray-200 p-1">(next.config.js)</span> for redirects, rewrites, and headers.</li>
+            <li className="pb-2 list-disc text-md mx-3 md:mx-9">Introduced support for custom routes <span className="bg-gray-400 p-1">(next.config.js)</span> for redirects, rewrites, and headers.</li>
             <div className="bg-black md:text-lg sm:text-sm text-[14px] text-left px-3 md:px-8 py-7 text-cyan-500 h-full md:h-[350px] sm:h-[380px] rounded-lg md:w-[70%] sm:w-[90%] w-full md:ml-[5%]">
                 <code>{`module.exports = {`}</code> <br />
                 <code>&nbsp;{`async redirects() {`}</code><br />
@@ -144,7 +144,7 @@ const page = () => {
             <ul className="px-3 md:px-12">
             <li className="pb-2 list-disc text-md mx-3 md:mx-9">Added support for the <b>AMP (Accelerated Mobile Pages) </b>AMP framework.
             </li>
-            <li className="pb-2 list-disc text-md mx-3 md:mx-9">Use the <span className="bg-gray-200 p-1">amp</span> property in Next.js pages for AMP compatibility.</li>
+            <li className="pb-2 list-disc text-md mx-3 md:mx-9">Use the <span className="bg-gray-400 p-1">amp</span> property in Next.js pages for AMP compatibility.</li>
             </ul>
             <h4 className="py-4 px-3 md:px-12 list-decimal text-lg font-semibold text-left font-serif">11. New Analytics Tools
             </h4>

@@ -4,7 +4,7 @@ import Comments from '@/components/comment'
 const page = () => {
   return (
     <div className='px-3 md:px-8 py-8 rounded-lg  '>
-         <Image src="/images/5.jpg" alt="setup" width={200} height={200} className="w-full h-full md:w-full sm:w-[660px] md:h-[550px] sm:h[350px] rounded-lg border border-slate-300"/>
+         <Image src="/images/5.jpg" alt="setup" width={400} height={400} className="w-full h-full md:w-full sm:w-[660px] md:h-[550px] sm:h[350px] rounded-lg border border-slate-300"/>
         <div className='px-3 md:px-8 py-8 rounded-lg'>
         <h1 className='py-4 text-[45px] text-center font-serif font-bold'>Next.JS 5</h1>
         <h3 className='pb-4 text-xl font-medium text-center font-serif'>Fifth Version of Next.JS</h3>
@@ -27,7 +27,7 @@ const page = () => {
             <code>&nbsp;&nbsp;{`};`}</code>
         </div>
         <h4  className='pb-4 list-decimal text-lg font-semibold text-left font-serif'>2. Dynamic Import with SSR</h4>
-        <li className='pb-2 list-disc text-md mx-3 md:mx-9'>Improved <span className='bg-gray-200 p-1'>next/dynamic</span> to support server-side rendering (SSR) for dynamically imported modules.</li>
+        <li className='pb-2 list-disc text-md mx-3 md:mx-9'>Improved <span className='bg-gray-400 p-1'>next/dynamic</span> to support server-side rendering (SSR) for dynamically imported modules.</li>
         <li className='pb-2 list-disc text-md mx-3 md:mx-9'>Allowed components to load conditionally on the server side without affecting SSR capabilities.
         </li>
         <li className='pb-2 list-disc text-md mx-3 md:mx-9'>Example:</li>
@@ -53,8 +53,8 @@ const page = () => {
             <h4  className='pb-4 list-decimal text-lg font-semibold text-left font-serif'>6. Production-ready Build Improvements</h4>
             <li className='pb-2 list-disc text-md mx-3 md:mx-9'>Improved the production build process to generate smaller bundles and better optimize client-side JavaScript.</li>
             <li className='pb-2 list-disc text-md mx-3 md:mx-9'>Reduced initial load times for users.</li>
-            <h4  className='pb-4 list-decimal text-lg font-semibold text-left font-serif'>7. Support for Custom <span className='bg-gray-200 p-1'>server.js</span></h4>
-            <li className='pb-2 list-disc text-md mx-3 md:mx-9'>Allowed developers to customize their server logic with a custom <span className='bg-gray-200 p-1'>server.js</span> file.</li>
+            <h4  className='pb-4 list-decimal text-lg font-semibold text-left font-serif'>7. Support for Custom <span className='bg-gray-400 p-1'>server.js</span></h4>
+            <li className='pb-2 list-disc text-md mx-3 md:mx-9'>Allowed developers to customize their server logic with a custom <span className='bg-gray-400 p-1'>server.js</span> file.</li>
             <li className='pb-2 list-disc text-md mx-3 md:mx-9'>Example: Adding custom API endpoints or middleware logic.</li>
             <div className='bg-black md:text-sm text-[14px] text-left px-8 py-7 text-cyan-500 md:h-[500px] sm:[600px] h-full rounded-lg md:w-[60%] w-[90%] md:ml-[5%]'>
                 <code>const express = require(express);</code><br />
@@ -74,8 +74,8 @@ const page = () => {
                 <code>{`  });`}</code><br />
                 <code>{`  });`}</code>
             </div>
-            <h4  className='pb-4 list-decimal text-lg font-semibold text-left font-serif'>8.  Improved Static Export (<span className='bg-gray-200 p-1'>next export</span>)</h4>
-            <li className='pb-2 list-disc text-md mx-3 md:mx-9'>Enhanced the <span className='bg-gray-200 p-1'>next export</span> feature to work seamlessly with dynamic routing and custom configurations.</li>
+            <h4  className='pb-4 list-decimal text-lg font-semibold text-left font-serif'>8.  Improved Static Export (<span className='bg-gray-400 p-1'>next export</span>)</h4>
+            <li className='pb-2 list-disc text-md mx-3 md:mx-9'>Enhanced the <span className='bg-gray-400 p-1'>next export</span> feature to work seamlessly with dynamic routing and custom configurations.</li>
         </ul>
         <h3 className='pb-4 text-[25px] px-12 font-bold text-left font-serif'>Performance Enhancements</h3>
         <ul className='px-3 md:px-12'>

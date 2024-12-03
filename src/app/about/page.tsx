@@ -4,7 +4,7 @@ import Link from 'next/link'
 const page = () => {
   return (
     <div className='md:px-8 py-8 rounded-lg  w-full'>
-        <Image src="/images/setup.jpg" alt="setup" width={200} height={200} className="w-full h-full md:w-full sm:w-[660px] md:h-[550px] sm:h[350px] rounded-lg border border-slate-300"/>
+        <Image src="/images/setup.jpg" alt="setup" width={400} height={400} className="w-full h-full md:w-full sm:w-[660px] md:h-[550px] sm:h[350px] rounded-lg border border-slate-300"/>
    <div className='md:px-8 px-4 py-8 rounded-lg w-full'>
     
     <h1 className='py-4 text-[45px] text-center font-serif font-bold'>Setup Of Next.JS</h1>
@@ -18,7 +18,7 @@ const page = () => {
     </div>
     <p className='py-4  text-[16px] text-justify md:px-9 px-3'>If they’re not installed, download and install Node.js from <Link href="https://nodejs.org/" className='text-indigo-500'>nodejs.org</Link></p>
     <h3 className='text-xl text-left font-semibold font-serif pb-4 md:px-9 px-3'>2. Create a New Next.js Project</h3>
-    <p className='pb-4  text-[16px] text-justify md:px-9 px-3'>Use the <span className='bg-gray-200 p-1'>npx</span> command to create a new Next.js project. In your terminal, run</p>
+    <p className='pb-4  text-[16px] text-justify md:px-9 px-3'>Use the <span className='bg-gray-400 p-1'>npx</span> command to create a new Next.js project. In your terminal, run</p>
     <div className='bg-black text-lg text-left px-8 py-7 text-cyan-500 md:h-[80px] h-[120px] rounded-lg md:w-[45%] w-[85%] ml-[5%]'>
         <code>npx create-next-app@latest my-nextjs-app</code>
     </div>
@@ -29,7 +29,7 @@ const page = () => {
        <li className='pb-2 list-disc text-md font-semibold md:mx-9 mx-3'>ESLint:</li>
        <p className='pb-2  text-[16px] text-justify md:px-9 px-3'>Choose if you want ESLint for code linting.</p>
        <li className='pb-2 list-disc text-md font-semibold md:mx-9 mx-3'>src Directory: </li>
-       <p className='pb-2  text-[16px] text-justify md:px-9 px-3'> Decide if you want to organize files under a <span className='p-1 bg-gray-200'>src</span> directory.</p>
+       <p className='pb-2  text-[16px] text-justify md:px-9 px-3'> Decide if you want to organize files under a <span className='p-1 bg-gray-400'>src</span> directory.</p>
        <li className='pb-2 list-disc text-md font-semibold md:mx-9 mx-3'>Experimental App Router:</li>
        <p className='pb-2  text-[16px] text-justify md:px-9 px-3'> Enable this if you’re using Next.js 13 or later.</p>
        <li className='pb-2 list-disc text-md font-semibold md:mx-9 mx-3'>Other Options:</li>
@@ -49,17 +49,17 @@ const page = () => {
             <h3 className='text-xl text-left font-semibold font-serif pb-4 md:px-9 px-3'>5. Explore the Project Structure</h3>
             <p className='pb-4  text-[16px] text-justify md:px-9 px-3'>A default Next.js project will have the following structure:</p>
            <ul className='md:px-9 px-3'>
-           <li className='pb-2 list-disc text-md  md:mx-9 mx-3'><span className='bg-gray-200 '>pages/</span>: Contains your page components.</li>
-           <li className='pb-2 list-disc text-md  md:mx-9 mx-3' ><span className='bg-gray-200 '>public/</span>: Static files like images and icons.</li>
-           <li className='pb-2 list-disc text-md  md:mx-9 mx-3'><span className='bg-gray-200 '>styles/</span>: Default CSS files.</li>
-           <li className='pb-2 list-disc text-md  md:mx-9 mx-3'><span className='bg-gray-200 '>next.config.js</span>: Configuration file for advanced customizations.</li>
-           <li className='pb-2 list-disc text-md  md:mx-9 mx-3'><span className='bg-gray-200 '>package.json</span>: Manages dependencies and scripts.</li>
+           <li className='pb-2 list-disc text-md  md:mx-9 mx-3'><span className='bg-gray-400 '>pages/</span>: Contains your page components.</li>
+           <li className='pb-2 list-disc text-md  md:mx-9 mx-3' ><span className='bg-gray-400 '>public/</span>: Static files like images and icons.</li>
+           <li className='pb-2 list-disc text-md  md:mx-9 mx-3'><span className='bg-gray-400 '>styles/</span>: Default CSS files.</li>
+           <li className='pb-2 list-disc text-md  md:mx-9 mx-3'><span className='bg-gray-400 '>next.config.js</span>: Configuration file for advanced customizations.</li>
+           <li className='pb-2 list-disc text-md  md:mx-9 mx-3'><span className='bg-gray-400 '>package.json</span>: Manages dependencies and scripts.</li>
 
            </ul>
            <h3 className='text-xl text-left font-semibold font-serif pb-4 md:px-9 px-3'>6. Configure CSS or Tailwind CSS (Optional)</h3>
            <ul className='md:px-9 px-3'>
-           <li className='pb-2 list-disc text-md  md:mx-9 mx-3'><b>CSS</b>: You can add global styles in <span className='bg-gray-200'>styles/globals.css</span> and module-based styles in component files (e.g., <span className='bg-gray-200'>styles/Home.module.css</span>).</li> 
-           <li className='pb-2 list-disc text-md  md:mx-9 mx-3'><b>Tailwind CSS</b>: If you selected Tailwind CSS during setup, configure it in <span className='bg-gray-200'>tailwind.config.js</span>.</li> 
+           <li className='pb-2 list-disc text-md  md:mx-9 mx-3'><b>CSS</b>: You can add global styles in <span className='bg-gray-400'>styles/globals.css</span> and module-based styles in component files (e.g., <span className='bg-gray-400'>styles/Home.module.css</span>).</li> 
+           <li className='pb-2 list-disc text-md  md:mx-9 mx-3'><b>Tailwind CSS</b>: If you selected Tailwind CSS during setup, configure it in <span className='bg-gray-400'>tailwind.config.js</span>.</li> 
            </ul>
            <p className='pb-4  text-[16px] text-justify md:px-9 px-3'>For styling, Tailwind CSS is a great option with Next.js. Here’s how to set it up:</p>
            <p className='pb-4  text-[16px] text-justify md:px-9 px-3'><b>Install Tailwind:</b></p>
@@ -87,16 +87,16 @@ const page = () => {
               <code>@Tailwind utilities;</code>
             </div>
            <h3 className='text-xl text-left font-semibold font-serif py-4 md:px-9 px-3'>7. Set Up Routing</h3>
-           <p className='pb-4  text-[16px] text-justify md:px-9 px-3'>In Next.js, each file in the <span className='bg-gray-200 '>pages</span> directory automatically becomes a route:</p>
+           <p className='pb-4  text-[16px] text-justify md:px-9 px-3'>In Next.js, each file in the <span className='bg-gray-400 '>pages</span> directory automatically becomes a route:</p>
            <ul className='md:px-9 px-3'>
-           <li className='pb-2 list-disc text-md  md:mx-9 mx-3'><span className='bg-gray-200'>pages/index.js</span> maps to <span className='bg-gray-200'>/</span>.</li> 
-           <li className='pb-2 list-disc text-md  md:mx-9 mx-3'><span className='bg-gray-200'>pages/about.js</span> maps to <span className='bg-gray-200'>/about</span>.</li> 
+           <li className='pb-2 list-disc text-md  md:mx-9 mx-3'><span className='bg-gray-400'>pages/index.js</span> maps to <span className='bg-gray-400'>/</span>.</li> 
+           <li className='pb-2 list-disc text-md  md:mx-9 mx-3'><span className='bg-gray-400'>pages/about.js</span> maps to <span className='bg-gray-400'>/about</span>.</li> 
            </ul>
-           <p className='pb-4  text-[16px] text-justify md:px-9 px-3'>For nested routes, create folders within <span className='bg-gray-200 '>pages</span>:</p>
+           <p className='pb-4  text-[16px] text-justify md:px-9 px-3'>For nested routes, create folders within <span className='bg-gray-400 '>pages</span>:</p>
            <h3 className='text-xl text-left font-semibold font-serif py-4 md:px-9 px-3'>8. Adding Components</h3>
            <ul className='md:px-9 px-3'>
-           <li className='pb-2 list-disc text-md  md:mx-9 mx-3'>Create a<span className='bg-gray-200'> components</span> directory for reusable components.</li> 
-           <li className='pb-2 list-disc text-md  md:mx-9 mx-3'>Add a new component, e.g., <span className='bg-gray-200'>Header.js</span>, in <span className='bg-gray-200'>components/</span>.</li> 
+           <li className='pb-2 list-disc text-md  md:mx-9 mx-3'>Create a<span className='bg-gray-400'> components</span> directory for reusable components.</li> 
+           <li className='pb-2 list-disc text-md  md:mx-9 mx-3'>Add a new component, e.g., <span className='bg-gray-400'>Header.js</span>, in <span className='bg-gray-400'>components/</span>.</li> 
            <li className='pb-2 list-disc text-md  md:mx-9 mx-3'>Import and use it in pages like this:</li>
            </ul>
            <div className='bg-black text-lg text-left md:pl-12 pl-2 py-8 text-cyan-500 md:h-[320px] h-[380px] rounded-lg md:w-[50%] w-[85%] md:ml-[5%]'>
@@ -112,11 +112,11 @@ const page = () => {
             </div>
             <h3 className='text-xl text-left font-semibold font-serif py-4 md:px-9 px-3'>9. Using Environment Variables</h3>
             <ul className='md:px-9 px-3'>
-            <li className='pb-2 list-disc text-md  md:mx-9 mx-3'>Create a <span className='bg-gray-200'>.env.local</span> file in the root directory for environment variables:</li>
+            <li className='pb-2 list-disc text-md  md:mx-9 mx-3'>Create a <span className='bg-gray-400'>.env.local</span> file in the root directory for environment variables:</li>
             <div className='bg-black sm:text-[1rem] hidden md:block sm:block md:text-lg text-left md:pl-12 pl-2 py-8 text-cyan-500 h-[80px] rounded-lg md:w-[50%] w-[70%] md:ml-[5%]'>
               <code>{`NEXT_PUBLIC_API_URL=https://api.example.com`}</code>
             </div>
-            <li className='py-2 list-disc text-md  md:mx-9 mx-3'>Access these variables in your app using <span className='bg-gray-200'>process.env.NEXT_PUBLIC_API_URL</span>.</li>
+            <li className='py-2 list-disc text-md  md:mx-9 mx-3'>Access these variables in your app using <span className='bg-gray-400'>process.env.NEXT_PUBLIC_API_URL</span>.</li>
             </ul>
             <h3 className='text-xl text-left font-semibold font-serif py-4 md:px-9 px-3'>10. Build and Deploy the Project</h3>
             <p className='py-4  text-[16px] text-justify md:px-9 px-3'>When you are ready to deploy build the project:</p>
