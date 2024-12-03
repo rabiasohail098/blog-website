@@ -23,7 +23,7 @@ Enabled developers to export their Next.js applications as a set of static files
 <li className='pb-2 list-disc text-md mx-3 md:mx-9'>Reduced initial page load times by splitting the JavaScript bundle.
 </li>
 <li className='pb-2 list-disc text-md mx-3 md:mx-9'>Example:</li>
-<div className='bg-black md:text-lg text-sm text-left px-8 py-7 text-cyan-500 md:h-[200px] h-[220px] rounded-lg md:w-[45%] w-[95%] ml-[5%]'>
+<div className='bg-black my-3 border-2 border-gray-500 md:text-lg text-sm text-left px-8 py-7 text-cyan-500 md:h-[200px] h-[220px] rounded-lg md:w-[45%] w-[95%] ml-[5%]'>
     <code>import dynamic from next/dynamic;</code> <br />
     <code>{`const DynamicComponent = dynamic(() => import('./path-to-component'));`}
     </code> <br />

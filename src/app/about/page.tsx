@@ -12,7 +12,7 @@ const page = () => {
     <p className='py-4  text-[16px] w-[80%] text-justify md:px-12 px-6'>Next.js is a powerful React framework for building fast and optimized web applications. Setting it up is simple, and Ill guide you through it step by step.</p>
     <h3 className='text-xl text-left font-semibold font-serif pb-4 md:px-9 px-3'>1. Install Node.js and npm</h3>
     <p className='pb-4  text-[16px] text-justify md:px-9 px-3'>First, make sure you have Node.js and npm installed. You can check your versions using the following commands.</p>
-    <div className='bg-black text-lg text-left md:px-8 px-2 py-8 text-cyan-500 md:h-[100px] h-[140px] rounded-lg w-[40%] md:ml-[5%]'>
+    <div className='bg-black my-3 border-2 border-gray-500 text-lg text-left md:px-8 px-2 py-8 text-cyan-500 md:h-[100px] h-[140px] rounded-lg w-[40%] md:ml-[5%]'>
     <code>node -v</code> <br />
     <code>npm -v</code>
     </div>
@@ -37,12 +37,12 @@ const page = () => {
     </ul>
     <h3 className='text-xl text-left font-semibold font-serif pb-4 md:px-9 px-3'>3. Navigate to the Project Directory</h3>
     <p className='pb-4  text-[16px] text-justify md:px-9 px-3'>After setup, navigate to the project folder:</p>
-    <div className='bg-black text-lg text-left md:px-8 px-3 py-7 text-cyan-500 md:h-[80px] h-[120px] rounded-lg md:w-[40%] w-[85%] md:ml-[5%]'>
+    <div className='bg-black my-3 border-2 border-gray-500 text-lg text-left md:px-8 px-3 py-7 text-cyan-500 md:h-[80px] h-[120px] rounded-lg md:w-[40%] w-[85%] md:ml-[5%]'>
         <code>cd my-nextjs-app</code>
         </div>
         <h3 className='text-xl text-left font-semibold font-serif py-4 md:px-9 px-3'>4. Start the Development Server</h3>
         <p className='pb-4  text-[16px] text-justify md:px-9 px-3'>Run the development server with the following command:</p>
-        <div className='bg-black text-lg text-left md:px-8 px-3 py-7 text-cyan-500 md:h-[80px] h-[120px] rounded-lg w-[40%] md:ml-[5%]'>
+        <div className='bg-black my-3 border-2 border-gray-500 text-lg text-left md:px-8 px-3 py-7 text-cyan-500 md:h-[80px] h-[120px] rounded-lg w-[40%] md:ml-[5%]'>
             <code>npm run dev</code>
             </div>
             <p className='py-4  text-[16px] text-justify md:px-9 px-3'>Open your browser and go to http://localhost:3000 to view the project.</p>
@@ -63,11 +63,11 @@ const page = () => {
            </ul>
            <p className='pb-4  text-[16px] text-justify md:px-9 px-3'>For styling, Tailwind CSS is a great option with Next.js. Here’s how to set it up:</p>
            <p className='pb-4  text-[16px] text-justify md:px-9 px-3'><b>Install Tailwind:</b></p>
-           <div className='bg-black text-lg text-left md:px-8 px-3 py-8 text-cyan-500 md:h-[80px] h-[120px] rounded-lg w-[70%] ml-[5%]'>
+           <div className='bg-black my-3 border-2 border-gray-500 text-lg text-left md:px-8 px-3 py-8 text-cyan-500 md:h-[80px] h-[120px] rounded-lg w-[70%] ml-[5%]'>
             <code>npm install -D tailwindcss postcss autoprefixernpx tailwindcss init -p</code>
             </div>
             <p className='py-4  text-[16px] text-justify md:px-9 px-3'>Configure Tailwind: Open the generated tailwind.config.js and add the paths to your content:</p>
-            <div className='bg-black text-lg text-left md:pl-12 pl-2 py-8 text-cyan-500 md:h-[380px] h-[420px] rounded-lg md:w-[50%] w-[90%] md:ml-[5%]'>
+            <div className='bg-black my-3 border-2 border-gray-500 text-lg text-left md:pl-12 pl-2 py-8 text-cyan-500 md:h-[380px] h-[420px] rounded-lg md:w-[50%] w-[90%] md:ml-[5%]'>
             <p className='pb-2 text-white text-[16px] text-justify px-3'>tailwind.config.js</p>
             <code> {`module.export ={`} </code><br />
             <code>{`         content: [ `}</code><br />
@@ -81,7 +81,7 @@ const page = () => {
             <code> {`               };`}</code>
             </div>
             <p className='py-4  text-[16px] text-justify md:px-9 px-3'>Add Tailwind CSS to Your CSS File: In styles/globals.css, add:</p>
-            <div className='bg-black text-lg text-left md:pl-12 pl-2 py-8 text-cyan-500 md:h-[150px] h-[200px] rounded-lg md:w-[50%] w-[90%] ml-[5%]'>
+            <div className='bg-black my-3 border-2 border-gray-500 text-lg text-left md:pl-12 pl-2 py-8 text-cyan-500 md:h-[150px] h-[200px] rounded-lg md:w-[50%] w-[90%] ml-[5%]'>
               <code>@Tailwind base;</code><br />
               <code>@Tailwind components;</code><br />
               <code>@Tailwind utilities;</code>
@@ -99,7 +99,7 @@ const page = () => {
            <li className='pb-2 list-disc text-md  md:mx-9 mx-3'>Add a new component, e.g., <span className='bg-gray-400'>Header.js</span>, in <span className='bg-gray-400'>components/</span>.</li> 
            <li className='pb-2 list-disc text-md  md:mx-9 mx-3'>Import and use it in pages like this:</li>
            </ul>
-           <div className='bg-black text-lg text-left md:pl-12 pl-2 py-8 text-cyan-500 md:h-[320px] h-[380px] rounded-lg md:w-[50%] w-[85%] md:ml-[5%]'>
+           <div className='bg-black my-3 border-2 border-gray-500 text-lg text-left md:pl-12 pl-2 py-8 text-cyan-500 md:h-[320px] h-[380px] rounded-lg md:w-[50%] w-[85%] md:ml-[5%]'>
             <code>{`import Header from '../components/Header';`}</code><br />
             <code>{`export default function Home() {`}</code><br />
             <code>{` return (`}</code><br />
@@ -113,22 +113,22 @@ const page = () => {
             <h3 className='text-xl text-left font-semibold font-serif py-4 md:px-9 px-3'>9. Using Environment Variables</h3>
             <ul className='md:px-9 px-3'>
             <li className='pb-2 list-disc text-md  md:mx-9 mx-3'>Create a <span className='bg-gray-400'>.env.local</span> file in the root directory for environment variables:</li>
-            <div className='bg-black sm:text-[1rem] hidden md:block sm:block md:text-lg text-left md:pl-12 pl-2 py-8 text-cyan-500 h-[80px] rounded-lg md:w-[50%] w-[70%] md:ml-[5%]'>
+            <div className='bg-black my-3 border-2 border-gray-500 sm:text-[1rem] hidden md:block sm:block md:text-lg text-left md:pl-12 pl-2 py-8 text-cyan-500 h-[80px] rounded-lg md:w-[50%] w-[70%] md:ml-[5%]'>
               <code>{`NEXT_PUBLIC_API_URL=https://api.example.com`}</code>
             </div>
             <li className='py-2 list-disc text-md  md:mx-9 mx-3'>Access these variables in your app using <span className='bg-gray-400'>process.env.NEXT_PUBLIC_API_URL</span>.</li>
             </ul>
             <h3 className='text-xl text-left font-semibold font-serif py-4 md:px-9 px-3'>10. Build and Deploy the Project</h3>
             <p className='py-4  text-[16px] text-justify md:px-9 px-3'>When you are ready to deploy build the project:</p>
-            <div className='bg-black text-lg text-left pl-12 py-8 text-cyan-500 md:h-[80px] h-[120px] rounded-lg w-[50%] md:ml-[5%]'>
+            <div className='bg-black my-3 border-2 border-gray-500 text-lg text-left pl-12 py-8 text-cyan-500 md:h-[80px] h-[120px] rounded-lg w-[50%] md:ml-[5%]'>
               <code>npm run build</code>
             </div>
             <p className='py-4  text-[16px] text-justify md:px-9 px-3'>Start the production server:</p>
-            <div className='bg-black text-lg text-left pl-12 py-8 text-cyan-500 md:h-[80px] h-[120px] rounded-lg w-[50%] md:ml-[5%]'>
+            <div className='bg-black my-3 border-2 border-gray-500 text-lg text-left pl-12 py-8 text-cyan-500 md:h-[80px] h-[120px] rounded-lg w-[50%] md:ml-[5%]'>
               <code>npm start</code>
             </div>
             <p className='py-4  text-[16px] text-justify md:px-9 px-3'>Or deploy to Vercel, which integrates seamlessly with Next.js.</p>
-            <div className='bg-black text-lg text-left pl-12 py-8 text-cyan-500 md:h-[80px] h-[120px] rounded-lg w-[50%] md:ml-[5%]'>
+            <div className='bg-black my-3 border-2 border-gray-500 text-lg text-left pl-12 py-8 text-cyan-500 md:h-[80px] h-[120px] rounded-lg w-[50%] md:ml-[5%]'>
               <code>vercel</code>
             </div>
     </div>

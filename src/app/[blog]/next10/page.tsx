@@ -32,7 +32,7 @@ const page = () => {
           </li>
           <li className="pb-2 list-disc text-md mx-3 md:mx-9">Examples:</li>
           </li>
-          <div className="bg-black md:text-lg sm:text-sm text-[14px] text-left px-3 md:px-8 py-7 text-cyan-500 md:h-[380px] sm:h-[450px] h-full rounded-lg md:w-[70%] sm:w-[90%] md:ml-[5%] w-full">
+          <div className="bg-black border-2 border-gray-500 md:text-lg sm:text-sm text-[14px] text-left px-3 md:px-8 py-7 text-cyan-500 md:h-[380px] sm:h-[450px] h-full rounded-lg md:w-[70%] sm:w-[90%] md:ml-[5%] w-full">
             <code>{`import Image from 'next/image';`}</code><br/>
             <code>&nbsp;{`const MyImage = () => (`}</code><br/><br />
             <code>&nbsp;{` <Image`}</code><br />
@@ -54,7 +54,7 @@ const page = () => {
           <li className="pb-2 list-disc text-md mx-3 md:mx-9">Enables locale-based URL routing, such as <span className="bg-gray-400 p-1">/en</span>, <span className="bg-gray-400 p-1">/fr</span>, or <span className="bg-gray-400 p-1">/es</span>.
 </li>
           <li className="pb-2 list-disc text-md mx-3 md:mx-9">Configuration in <span className="bg-gray-400 p-1">next.config.js:</span></li>
-<div className="bg-black md:text-lg sm:text-sm text-[14px] text-left px-3 md:px-8 py-7 text-cyan-500 md:h-[260px] sm:h-[320px] h-full w-full rounded-lg md:w-[70%] md:ml-[5%] sm:w-[90%]">
+<div className="bg-black my-3 border-gray-500 border-2 md:text-lg sm:text-sm text-[14px] text-left px-3 md:px-8 py-7 text-cyan-500 md:h-[260px] sm:h-[320px] h-full w-full rounded-lg md:w-[70%] md:ml-[5%] sm:w-[90%]">
     <code>{`module.exports = {`}</code><br /><br />
     <code>&nbsp;{` i18n: {`}</code><br />
     <code>&nbsp;&nbsp;{` locales: ['en', 'fr', 'es'],`}</code><br />
@@ -99,7 +99,7 @@ const page = () => {
        </li>
        <li className="pb-2 list-disc text-md mx-3 md:mx-9">Enables deferred or async loading of external scripts.</li>
        <li className="pb-2 list-disc text-md mx-3 md:mx-9">Example:</li>
-       <div className="bg-black md:text-lg sm:text-sm text-[14px] text-left px-3 md:px-8 py-7 text-cyan-500 md:h-[350px] sm:h-[430px] h-full rounded-lg md:w-[70%] sm:w-[90%] w-full md:ml-[5%]">
+       <div className="bg-black my-3 border-gray-500 border-2  md:text-lg sm:text-sm text-[14px] text-left px-3 md:px-8 py-7 text-cyan-500 md:h-[350px] sm:h-[430px] h-full rounded-lg md:w-[70%] sm:w-[90%] w-full md:ml-[5%]">
         <code>{`import Script from 'next/script';`}</code><br /><br />
         <code>{`const MyPage = () => (`}</code><br />
         <code>&nbsp;{`  <>`}</code><br />
@@ -146,7 +146,7 @@ const page = () => {
        <li className="pb-2 list-disc text-md mx-3 md:mx-9">Allows you to update static content without rebuilding the entire site.
        </li>
        <li className="pb-2 list-disc text-md mx-3 md:mx-9">Example:</li>
-       <div className="bg-black md:text-lg sm:text-sm text-[14px] text-left px-3 md:px-8 py-7 text-cyan-500 md:h-[230px] sm:h-[300px] h-full rounded-lg md:w-[70%] md:ml-[5%] sm:w-[90%] w-full">
+       <div className="bg-black my-3 border-gray-500 border-2 md:text-lg sm:text-sm text-[14px] text-left px-3 md:px-8 py-7 text-cyan-500 md:h-[230px] sm:h-[300px] h-full rounded-lg md:w-[70%] md:ml-[5%] sm:w-[90%] w-full">
         <code>{`export async function getStaticProps() {`}</code><br/>
         <code>&nbsp;{`  return {`}</code><br/>
         <code>&nbsp;&nbsp;{`props: { data: 'Hello World' },`}</code><br/>
@@ -167,7 +167,7 @@ const page = () => {
        </h4>
        <ul className="px-3 md:px-12">
        <li className="pb-2 list-disc text-md mx-3 md:mx-9">Improved support for adding custom headers and handling redirects in <span className="bg-gray-400 p-1">next.config.js.</span></li>
-       <div className="bg-black md:text-lg sm:text-sm text-[14px] text-left px-3 md:px-8 py-7 text-cyan-500 md:h-[380px] sm:h-[450px] h-full rounded-lg md:w-[70%] sm:w-[90%] w-full md:ml-[5%]">
+       <div className="bg-black my-3 border-gray-500 border-2 md:text-lg sm:text-sm text-[14px] text-left px-3 md:px-8 py-7 text-cyan-500 md:h-[380px] sm:h-[450px] h-full rounded-lg md:w-[70%] sm:w-[90%] w-full md:ml-[5%]">
         <code>{`module.exports = {`}</code><br/>
         <code>&nbsp;{`async headers() {`}</code><br />
         <code>&nbsp;&nbsp;{` return [`}</code><br />

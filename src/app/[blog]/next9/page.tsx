@@ -29,7 +29,7 @@ const page = () => {
           <li className="pb-2 list-disc text-md mx-3 md:mx-9">Developers can now create API endpoints by adding JavaScript or TypeScript files in the <span className="bg-gray-400 p-1">/pages/api</span> directory.
           </li>
           <li className="pb-2 list-disc text-md mx-3 md:mx-9">Example:</li>
-          <div className="bg-black md:text-lg sm:text-sm text-[14px] text-left px-3 md:px-8 py-7 text-cyan-500 h-[200px] md:h-[180px] sm:h-[220px] rounded-lg w-[60%] ml-[5%]">
+          <div className="bg-black my-3 border-2 border-gray-500 md:text-lg sm:text-sm text-[14px] text-left px-3 md:px-8 py-7 text-cyan-500 h-[200px] md:h-[180px] sm:h-[220px] rounded-lg w-[60%] ml-[5%]">
             <code>{`export default function handler(req, res) {`}</code><br/>
             <code>&nbsp;{`res.status(400).json({ message: 'Hello, world!' });`}</code><br/>
             <code>{`}`}</code>
@@ -56,7 +56,7 @@ const page = () => {
           <li className="pb-2 list-disc text-md mx-3 md:mx-9">Access parameters using the <span className="bg-gray-400 p-1">useRouter </span>hook or 
           <span className="bg-gray-400 p-1">getServerSideProps</span>.</li>
           </li>
-          <div className="bg-black md:text-lg sm:text-sm text-[14px] text-left px-3 md:px-8 py-7 text-cyan-500 md:h-[350px] sm:h-[380px] h-full rounded-lg md:w-[70%] sm:w-[90%] w-full md:ml-[5%]">
+          <div className="bg-black my-3 border-2 border-gray-500 md:text-lg sm:text-sm text-[14px] text-left px-3 md:px-8 py-7 text-cyan-500 md:h-[350px] sm:h-[380px] h-full rounded-lg md:w-[70%] sm:w-[90%] w-full md:ml-[5%]">
             <code>{`import { useRouter } from 'next/router';`}</code><br />
             <code>{`const Post = () => {`}</code><br />
             <code>&nbsp;{`  const router = useRouter();`}</code><br />
@@ -113,7 +113,7 @@ const page = () => {
             </h4>
             <ul className="px-3 md:px-12">
             <li className="pb-2 list-disc text-md mx-3 md:mx-9">Introduced support for custom routes <span className="bg-gray-400 p-1">(next.config.js)</span> for redirects, rewrites, and headers.</li>
-            <div className="bg-black md:text-lg sm:text-sm text-[14px] text-left px-3 md:px-8 py-7 text-cyan-500 h-full md:h-[350px] sm:h-[380px] rounded-lg md:w-[70%] sm:w-[90%] w-full md:ml-[5%]">
+            <div className="bg-black my-3 border-2 border-gray-500 md:text-lg sm:text-sm text-[14px] text-left px-3 md:px-8 py-7 text-cyan-500 h-full md:h-[350px] sm:h-[380px] rounded-lg md:w-[70%] sm:w-[90%] w-full md:ml-[5%]">
                 <code>{`module.exports = {`}</code> <br />
                 <code>&nbsp;{`async redirects() {`}</code><br />
                 <code>&nbsp;&nbsp;{` return [`}</code><br />

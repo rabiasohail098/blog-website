@@ -66,7 +66,7 @@ const page = () => {
           </li>
           </li>
           <li className="pb-2 list-disc text-md mx-3 md:mx-9">Example:</li>
-          <div className="bg-black md:text-lg sm:text-sm text-[14px] text-left px-3 md:px-8 py-7 text-cyan-500 md:h-[320px] sm:h-[380px] h-full rounded-lg md:w-[70%] sm:w-[90%] w-full md:ml-[5%]">
+          <div className="bg-black my-3 border-2 border-gray-500 md:text-lg sm:text-sm text-[14px] text-left px-3 md:px-8 py-7 text-cyan-500 md:h-[320px] sm:h-[380px] h-full rounded-lg md:w-[70%] sm:w-[90%] w-full md:ml-[5%]">
             <code>import Script from next/script;</code><br /><br />
             <code>{`const MyPage = () => (`}</code><br />
             <code>&nbsp;{`  <>`}</code><br />
@@ -99,7 +99,7 @@ const page = () => {
          <li className="pb-2 list-disc text-md mx-3 md:mx-9">Integrated directly with <span className="bg-gray-400 p-1">next/scriptnext/script</span> and the analytics library.
          </li>
          <li className="pb-2 list-disc text-md mx-3 md:mx-9">Example:</li>
-         <div className="bg-black md:text-lg sm:text-sm text-[14px] text-left px-3 md:px-8 py-7 text-cyan-500 md:h-[150px] sm:h-[180px] h-full rounded-lg md:w-[70%] sm:w-[90%] md:ml-[5%] w-full">
+         <div className="bg-black my-3 border-2 border-gray-500 md:text-lg sm:text-sm text-[14px] text-left px-3 md:px-8 py-7 text-cyan-500 md:h-[150px] sm:h-[180px] h-full rounded-lg md:w-[70%] sm:w-[90%] md:ml-[5%] w-full">
 <code>{`export function reportWebVitals(metric) {`}</code><br />
 <code>&nbsp;{`  console.log(metric);`}</code><br />
 <code>{`}`}</code>
@@ -118,7 +118,7 @@ const page = () => {
           </li>
           </li>
           <li className="pb-2 list-disc text-md mx-3 md:mx-9">Example:</li>
-          <div className="bg-black md:text-lg sm:text-sm text-[14px] text-left px-3 md:px-8 py-7 text-cyan-500 md:h-[350px] sm:h-[430px] h-full rounded-lg md:w-[70%] sm:w-[90%] w-full md:ml-[5%]">
+          <div className="bg-black my-3 border-2 border-gray-500 md:text-lg sm:text-sm text-[14px] text-left px-3 md:px-8 py-7 text-cyan-500 md:h-[350px] sm:h-[430px] h-full rounded-lg md:w-[70%] sm:w-[90%] w-full md:ml-[5%]">
             <code>import Image from next/image;</code><br />
             <code>{`const MyImage = () => (`}</code><br />
             <code>&nbsp;{`  <Image`}</code><br />
@@ -148,7 +148,7 @@ const page = () => {
           </li>
           </li>
           <li className="py-4 list-disc text-md mx-3 md:mx-9">Example:</li>
-          <div className="bg-black md:text-lg sm:text-sm text-[14px] text-left px-3 md:px-8 py-7 text-cyan-500 md:h-[290px] sm:h-[350px] h-full rounded-lg md:w-[70%] sm:w-[90%] w-full md:ml-[5%]">
+          <div className="bg-black my-3 border-2 border-gray-500 md:text-lg sm:text-sm text-[14px] text-left px-3 md:px-8 py-7 text-cyan-500 md:h-[290px] sm:h-[350px] h-full rounded-lg md:w-[70%] sm:w-[90%] w-full md:ml-[5%]">
             <code>{`export function middleware(req) {`}</code><br/>
             <code>&nbsp;{`  const { pathname } = req.nextUrl;`}</code><br/> <br/>
             <code>&nbsp;{`  if (pathname === '/protected') {`}</code><br/>
@@ -174,7 +174,7 @@ const page = () => {
           <li className="pb-2 list-disc text-md mx-3 md:mx-9">Enhanced <b>create-next-appn</b> with new templates for faster project initialization.
           </li>
           <li className="pb-2 list-disc text-md mx-3 md:mx-9">Examples:</li>
-          <div className="bg-black md:text-lg sm:text-sm text-[14px] text-left px-3 md:px-8 py-7 text-cyan-500 md:h-[140px] sm:h-[190px] h-full rounded-lg md:w-[70%] sm:w-[90%] w-full md:ml-[5%]">
+          <div className="bg-black my-3 border-2 border-gray-500 md:text-lg sm:text-sm text-[14px] text-left px-3 md:px-8 py-7 text-cyan-500 md:h-[140px] sm:h-[190px] h-full rounded-lg md:w-[70%] sm:w-[90%] w-full md:ml-[5%]">
             <code>npx create-next-app@latest my-app --example blog</code><br />
             <code>npx create-next-app@latest my-app --example ecommerce</code>
           </div>
@@ -190,7 +190,7 @@ const page = () => {
 <br />
           <li className="pb-2 list-disc text-md mx-3 md:mx-9">Create <span className="bg-gray-400 p-1">.module.css</span> or <span className="bg-gray-400 p-1">.module.scss</span> files for scoped styles.</li>
           </li>
-          <div className="bg-black text-lg text-left px-3 md:px-8 py-7 text-cyan-500 h-[120px] rounded-lg w-[60%] ml-[5%]">
+          <div className="bg-black my-3 border-2 border-gray-500 text-lg text-left px-3 md:px-8 py-7 text-cyan-500 h-[120px] rounded-lg w-[60%] ml-[5%]">
             <code>{`.button {`}</code><br />
             <code>{`  background-color: blue;`}</code><br />
             <code>{`}`}</code>

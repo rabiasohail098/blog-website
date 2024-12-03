@@ -72,7 +72,7 @@ const page = () => {
           <ul className="px-3 md:px-12">
           <li className="pb-2 list-disc text-md mx-3 md:mx-9">Added support for web workers, enabling developers to use multithreading for computationally heavy tasks.</li>
           <li className="pb-2 list-disc text-md mx-3 md:mx-9">Example:</li>
-          <div className="bg-black md:text-lg sm:text-sm text-[14px] text-left px-3 md:px-8 py-7 text-cyan-500 h-[100px] md:h-[150px] rounded-lg w-full md:w-[70%] sm:w-[90%] md:ml-[5%]">
+          <div className="bg-black my-3 border-2 border-gray-500 md:text-lg sm:text-sm text-[14px] text-left px-3 md:px-8 py-7 text-cyan-500 h-[100px] md:h-[150px] rounded-lg w-full md:w-[70%] sm:w-[90%] md:ml-[5%]">
    <code>const worker = new Worker(./worker.js);</code><br />
    <code>worker.postMessage(Hello Worker);</code>
    </div>

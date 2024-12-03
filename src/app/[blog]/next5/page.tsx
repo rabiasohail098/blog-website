@@ -16,7 +16,7 @@ const page = () => {
         <li className='pb-2 list-disc text-md mx-3 md:mx-9'>Introduced the ability to compose multiple Next.js applications into a single application, referred to as <b>multi-zone support</b>.</li>
         <li className='pb-2 list-disc text-md mx-3 md:mx-9'>Allowed developers to create micro-frontends or split large apps into smaller, maintainable parts.</li>
         <li className='pb-2 list-disc text-md mx-3 md:mx-9'>Example: Different subdomains or URL paths could serve different Next.js apps.</li>
-        <div className='bg-black md:text-lg text-sm text-left px-8 py-7 text-cyan-500 md:h-[320px] sm:h-[330px] h-full rounded-lg md:w-[60%] w-[95%] md:ml-[5%]'>
+        <div className='bg-black md:text-lg text-sm my-3 border-2 border-gray-500 text-left px-8 py-7 text-cyan-500 md:h-[320px] sm:h-[330px] h-full rounded-lg md:w-[60%] w-[95%] md:ml-[5%]'>
             <code>&nbsp;{`module.exports = {`}</code><br />
             <code>&nbsp;&nbsp;{`exportPathMap: async function (defaultPathMap) {`}</code><br />
             <code>&nbsp;&nbsp;&nbsp;{` return {`}</code><br />
@@ -31,7 +31,7 @@ const page = () => {
         <li className='pb-2 list-disc text-md mx-3 md:mx-9'>Allowed components to load conditionally on the server side without affecting SSR capabilities.
         </li>
         <li className='pb-2 list-disc text-md mx-3 md:mx-9'>Example:</li>
-        <div className='bg-black md:text-sm text-[14px] text-left px-3 md:px-8 py-7 text-cyan-500 md:h-[230px] sm:h-[300px] h-full rounded-lg md:w-[60%] w-[90%] md:ml-[5%]'>
+        <div className='bg-black md:text-sm text-[14px] my-3 border-2 border-gray-500 text-left px-3 md:px-8 py-7 text-cyan-500 md:h-[230px] sm:h-[300px] h-full rounded-lg md:w-[60%] w-[90%] md:ml-[5%]'>
             <code>{`import dynamic from 'next/dynamic';`}</code><br />
             <code>{`const DynamicComponent = dynamic(() => import('./SomeComponent'), { ssr: true });`}</code><br />
             <code>{`function Page() {`}</code><br />
@@ -56,7 +56,7 @@ const page = () => {
             <h4  className='pb-4 list-decimal text-lg font-semibold text-left font-serif'>7. Support for Custom <span className='bg-gray-400 p-1'>server.js</span></h4>
             <li className='pb-2 list-disc text-md mx-3 md:mx-9'>Allowed developers to customize their server logic with a custom <span className='bg-gray-400 p-1'>server.js</span> file.</li>
             <li className='pb-2 list-disc text-md mx-3 md:mx-9'>Example: Adding custom API endpoints or middleware logic.</li>
-            <div className='bg-black md:text-sm text-[14px] text-left px-8 py-7 text-cyan-500 md:h-[500px] sm:[600px] h-full rounded-lg md:w-[60%] w-[90%] md:ml-[5%]'>
+            <div className='bg-black md:text-sm my-3 border-2 border-gray-500 text-[14px] text-left px-8 py-7 text-cyan-500 md:h-[500px] sm:[600px] h-full rounded-lg md:w-[60%] w-[90%] md:ml-[5%]'>
                 <code>const express = require(express);</code><br />
                 <code>const next = require(next);</code><br />
                 <code>{`const app = next({ dev: process.env.NODE_ENV !== 'production' });`}</code><br />

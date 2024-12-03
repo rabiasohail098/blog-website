@@ -33,7 +33,7 @@ const page = () => {
 <li className='pb-2 list-disc text-md mx-3 md:mx-9'>Useful for injecting custom meta tags, styles, or scripts.
 </li>
 <li className='pb-2 list-disc text-md mx-3 md:mx-9'>Example:</li>
-<div className='bg-black md:text-lg text-sm text-left px-8 py-7 text-cyan-500 md:h-[580px] sm:h-[520px] h-[550px] w-[95%] rounded-lg md:w-[80%] ml-[5%]'>
+<div className='bg-black my-3 border-2 border-gray-500 md:text-lg text-sm text-left px-8 py-7 text-cyan-500 md:h-[580px] sm:h-[520px] h-[550px] w-[95%] rounded-lg md:w-[80%] ml-[5%]'>
     <code>{`import Document, { Html, Head, Main, NextScript } from 'next/document';`}
     </code><br />
           <code>&nbsp;&nbsp;&nbsp;{`class MyDocument extends Document {`}</code><br />

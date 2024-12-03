@@ -39,7 +39,7 @@ const page = () => {
           </li>
           </li>
           <li className="pb-2 list-disc text-md mx-3 md:mx-9">Middleware is created in the <span className="bg-gray-400 p-1">middleware.js</span> file:</li>
-          <div className="bg-black md:text-lg sm:text-sm text-[14px] text-left px-3 md:px-8 py-7 text-cyan-500 md:h-[300px] sm:h-[350px] h-full rounded-lg md:w-[70%] sm:w-[90%] w-full md:ml-[5%]">
+          <div className="bg-black md:text-lg sm:text-sm my-3 border-2 border-gray-500 text-[14px] text-left px-3 md:px-8 py-7 text-cyan-500 md:h-[300px] sm:h-[350px] h-full rounded-lg md:w-[70%] sm:w-[90%] w-full md:ml-[5%]">
             <code>{`export function middleware(request) {`}</code><br />
             <code>&nbsp;{`  const { pathname } = request.nextUrl;`}</code> <br /><br />
             <code>&nbsp;{`    if (pathname === '/dashboard') {`}</code><br />
@@ -78,7 +78,7 @@ const page = () => {
           </li>
           </li>
           <li className="pb-2 list-disc text-md mx-3 md:mx-9">Example structure:</li>
-          <div className="bg-black text-lg text-left px-3 md:px-8 py-7 text-cyan-500 md:h-[150px] sm:h-[180px] h-full  rounded-lg md:w-[70%] sm:w-[90%] w-full md:ml-[5%]">
+          <div className="bg-black text-lg text-left px-3 my-3 border-2 border-gray-500 md:px-8 py-7 text-cyan-500 md:h-[150px] sm:h-[180px] h-full  rounded-lg md:w-[70%] sm:w-[90%] w-full md:ml-[5%]">
             <code>{`export default function ServerComponent() {`}</code><br/>
             <code>&nbsp;{`  return <div>This is rendered on the server.</div>;`}</code><br/>
             <code>{`}`}</code>
@@ -90,7 +90,7 @@ const page = () => {
           <li className="pb-2 list-disc text-md mx-3 md:mx-9">Import <b>third-party modules</b> directly from a URL, avoiding npm installation.
           </li>
           <li className="py-2 list-disc text-md mx-3 md:mx-9">Example:</li>
-          <div className="bg-black text-lg text-left px-3 md:px-8 py-7 text-cyan-500 md:h-[150px] sm:h-[190px] h-full rounded-lg md:w-[70%] sm:w-[90%] w-full md:ml-[5%]">
+          <div className="bg-black text-lg text-left my-3 border-2 border-gray-500 px-3 md:px-8 py-7 text-cyan-500 md:h-[150px] sm:h-[190px] h-full rounded-lg md:w-[70%] sm:w-[90%] w-full md:ml-[5%]">
             <code>{`import moment from 'https://cdn.skypack.dev/moment';`}</code><br/>
             <code>{`console.log(moment().format());`}</code>
           </div>
@@ -116,7 +116,7 @@ const page = () => {
           </li> 
           </li> 
           <li className="py-2 list-disc text-md mx-3 md:mx-9">Example:</li> 
-          <div className="bg-black md:text-lg sm:text-sm text-[14px] text-left px-3 md:px-8 py-7 text-cyan-500 md:h-[330px] sm:h-[380px] h-full rounded-lg md:w-[80%] sm:w-[90%] w-full md:ml-[5%]">
+          <div className="bg-black md:text-lg my-3 border-2 border-gray-500 sm:text-sm text-[14px] text-left px-3 md:px-8 py-7 text-cyan-500 md:h-[330px] sm:h-[380px] h-full rounded-lg md:w-[80%] sm:w-[90%] w-full md:ml-[5%]">
             <code>import Image from next/image;</code><br/>
             <code>{`const MyImage = () => (`}</code><br/>
             <code>&nbsp;{`  <Image`}</code><br />

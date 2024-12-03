@@ -35,7 +35,7 @@ const page = () => {
             </li>
             <li className="pb-2 list-disc text-md mx-3 md:mx-9">Example:</li>
           </ul>
-          <div className="bg-black md:text-lg sm:text-sm text-[14px] text-left px-3 md:px-8 py-7 text-cyan-500 md:h-[120px] sm:h-[130px] h-[150px] rounded-lg md:w-[60%] sm:w-[80%] w-full  md:ml-[5%]">
+          <div className="bg-black my-3 border-2 border-gray-500 md:text-lg sm:text-sm text-[14px] text-left px-3 md:px-8 py-7 text-cyan-500 md:h-[120px] sm:h-[130px] h-[150px] rounded-lg md:w-[60%] sm:w-[80%] w-full  md:ml-[5%]">
             <code>import MyPage from ./custom-folder/MyPage;</code>
             <br />
             <code>export default MyPage;</code>
@@ -58,7 +58,7 @@ const page = () => {
           </li>
           <li className="pb-2 list-disc text-md mx-3 md:mx-9">Example: Modifying Webpack behavior:</li>
           </ul>
-          <div className="bg-black md:text-lg sm:text-sm text-[14px] text-left px-3 md:px-8 py-7 text-cyan-500 h-[300px] rounded-lg md:w-[60%] sm:w-[80%] w-full md:ml-[5%]">
+          <div className="bg-black my-3 border-2 border-gray-500 md:text-lg sm:text-sm text-[14px] text-left px-3 md:px-8 py-7 text-cyan-500 h-[300px] rounded-lg md:w-[60%] sm:w-[80%] w-full md:ml-[5%]">
             <code>{`module.exports = {`}</code><br />
             <code>&nbsp;{`webpack: (config) => {`}</code><br />
             <code>&nbsp;&nbsp;{` config.module.rules.push({`}</code><br />
@@ -79,7 +79,7 @@ const page = () => {
          <li className="pb-2 list-disc text-md mx-3 md:mx-9">Enhanced customization of <span className="bg-gray-400 p-1">_document.js</span> and <span className="bg-gray-400 p-1">_app.js</span> for global layouts, meta tags, and shared data between pages.
          </li>
          <li className="pb-2 list-disc text-md mx-3 md:mx-9">Example: Adding a global layout in <span className="bg-gray-400 p-1">_app.js</span></li>
-         <div className="bg-black md:text-sm sm:text-sm text-[14px] text-left px-3 md:px-8 py-7 text-cyan-500 md:h-[320px] sm:h-[380px] h-full rounded-lg md:w-[60%] sm:w-[80%] w-full ml-[5%]">
+         <div className="bg-black my-3 border-2 border-gray-500 md:text-sm sm:text-sm text-[14px] text-left px-3 md:px-8 py-7 text-cyan-500 md:h-[320px] sm:h-[380px] h-full rounded-lg md:w-[60%] sm:w-[80%] w-full ml-[5%]">
           <code>import ../styles/globals.css;</code><br/>
           <code>{`function MyApp({ Component, pageProps }) {`}</code><br />
           <code>&nbps;{`  return (`}</code><br />
@@ -115,7 +115,7 @@ const page = () => {
          <ul className="px-3 md:px-12">
          <li className="pb-2 list-disc text-md mx-3 md:mx-9">Automatically prefetches linked pages during idle time, improving perceived performance and navigation speed.</li>
          <li className="pb-2 list-disc text-md mx-3 md:mx-9">Example:</li>
-         <div className="bg-black text-lg text-left px-3 md:px-8 py-7 text-cyan-500 h-[300px] rounded-lg md:w-[60%] sm:w-[90%] w-full md:ml-[5%]">
+         <div className="bg-black my-3 border-2 border-gray-500 text-lg text-left px-3 md:px-8 py-7 text-cyan-500 h-[300px] rounded-lg md:w-[60%] sm:w-[90%] w-full md:ml-[5%]">
           <code>import Link from next/link;</code><br />
           <code>{`function HomePage() {`}</code><br />
           <code>&nbsp;{` return (`}</code><br />
